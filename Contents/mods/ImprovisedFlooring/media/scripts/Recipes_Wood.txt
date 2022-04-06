@@ -1,0 +1,202 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe WoodAcaciaFloor {   
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_51,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodBirchwoodFloor {   
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_42,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodBirchwoodFloorTiles {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_49,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodChestnutNorthFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_47,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodChestnutWestFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_46,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodCinnamonFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_50,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodCinnamonNorthFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_44,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodCinnamonWestFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_43,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodFinewoodFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_45,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodHardwoodFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_40,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodHardwoodFloorTiles {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_48,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodOakwoodFloor {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_41,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+
+    recipe WoodPinewoodFloorTiles {
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank,
+        Nails=4,
+	    Result:Moveables.floors_interior_tilesandwood_01_52,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3,
+        Category:Flooring,
+        AnimNode:BuildLow,
+        Prop1:Hammer,
+        Sound:Hammering,
+    }
+}

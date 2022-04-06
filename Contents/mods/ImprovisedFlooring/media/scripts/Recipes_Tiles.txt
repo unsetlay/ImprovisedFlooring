@@ -1,0 +1,320 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe TilesBeigeCheckered {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintLightBrown,
+	    Result:Moveables.floors_interior_tilesandwood_01_10,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBeige {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintLightBrown,
+	    Result:Moveables.floors_interior_tilesandwood_01_23,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBeigeSmooth {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintLightBrown,
+	    Result:Moveables.floors_interior_tilesandwood_01_19,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBlack {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintBlack,
+	    Result:Moveables.floors_interior_tilesandwood_01_7,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBlackDiagonal {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintBlack,
+	    Result:Moveables.floors_interior_tilesandwood_01_1,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBlueCheckered {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintBlue,
+	    Result:Moveables.floors_interior_tilesandwood_01_2,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBrown {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintBrown,
+	    Result:Moveables.floors_interior_tilesandwood_01_13,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesBrownLarge {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintBrown,
+	    Result:Moveables.floors_interior_tilesandwood_01_31,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesDarkGrey {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey=2,
+	    Result:Moveables.floors_interior_tilesandwood_01_20,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesDarkGreySmooth {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey=2,
+	    Result:Moveables.floors_interior_tilesandwood_01_24,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesDarkGreySquares {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey=2,
+	    Result:Moveables.floors_interior_tilesandwood_01_29,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGreenDiagonal {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGreen,
+	    Result:Moveables.floors_interior_tilesandwood_01_8,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGreen {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGreen,
+	    Result:Moveables.floors_interior_tilesandwood_01_21,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGrey {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.floors_interior_tilesandwood_01_30,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGreyCheckered {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.floors_interior_tilesandwood_01_4,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGreyDiagonal {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.floors_interior_tilesandwood_01_14,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGreySmooth {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.floors_interior_tilesandwood_01_18,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesGreySquares {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.floors_interior_tilesandwood_01_28,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesPurple {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintPurple,
+	    Result:Moveables.floors_interior_tilesandwood_01_22,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesWhiteCheckered {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintWhite,
+	    Result:Moveables.floors_interior_tilesandwood_01_5,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesWhiteDiagonal {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintWhite,
+	    Result:Moveables.floors_interior_tilesandwood_01_12,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesWhiteSmooth{
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintWhite,
+	    Result:Moveables.floors_interior_tilesandwood_01_17,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesWhite {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintWhite,
+	    Result:Moveables.floors_interior_tilesandwood_01_11,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesYellowCheckered {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintYellow,
+	    Result:Moveables.floors_interior_tilesandwood_01_3,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesYellowDiagonal {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintYellow,
+	    Result:Moveables.floors_interior_tilesandwood_01_9,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+    recipe TilesYellow {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintYellow,
+	    Result:Moveables.floors_interior_tilesandwood_01_6,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+}

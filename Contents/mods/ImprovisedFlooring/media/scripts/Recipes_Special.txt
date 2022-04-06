@@ -1,0 +1,86 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe SpecialMallTileGrey {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.location_shop_mall_01_22,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialMallTileN {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.location_shop_mall_01_20,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialMallTileW {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.location_shop_mall_01_21,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialMallTileWhite {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintWhite,
+	    Result:Moveables.location_shop_mall_01_23,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialPizzaWhirledFloor {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintRed,
+	    Result:Moveables.location_restaurant_pizzawhirled_01_16,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialSpiffoFloor {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintGreen,
+	    Result:Moveables.location_restaurant_spiffos_01_38,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+}

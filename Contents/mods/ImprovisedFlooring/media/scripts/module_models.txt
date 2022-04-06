@@ -1,0 +1,54 @@
+module ImprovisedFlooring {
+    imports {
+        Base
+    }
+
+    model Magazine_Carpet1 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineCarpet1,
+        scale = 0.4,
+    }
+
+    model Magazine_Special1 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineSpecial1,
+        scale = 0.4,
+    }
+
+    model Magazine_Special2 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineSpecial2,
+        scale = 0.4,
+    }
+
+    model Magazine_Special3 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineSpecial3,
+        scale = 0.4,
+    }
+
+    model Magazine_Tiles1 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineTiles1,
+        scale = 0.4,
+    }
+
+    model Magazine_Tiles2 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineTiles2,
+        scale = 0.4,
+    }
+
+    model Magazine_Tiles3 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineTiles3,
+        scale = 0.4,
+    }
+
+    model Magazine_Wood1 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_IFMagazineWood1,
+        scale = 0.4,
+    }
+
+}

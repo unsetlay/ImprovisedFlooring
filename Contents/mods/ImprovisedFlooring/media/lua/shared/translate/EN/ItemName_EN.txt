@@ -1,0 +1,11 @@
+ItemName_EN = {
+    /* Tile Magazines */
+    ItemName_ImprovisedFlooring.IFMagazineTiles1 = "Dave Depot: Tile catalog (Vol 1)",
+    ItemName_ImprovisedFlooring.IFMagazineTiles2 = "Dave Depot: Tile catalog (Vol 2)",
+    ItemName_ImprovisedFlooring.IFMagazineTiles3 = "Dave Depot: Tile catalog (Vol 3)",
+    ItemName_ImprovisedFlooring.IFMagazineWood1 = "Clowes: 1993 wood flooring",
+    ItemName_ImprovisedFlooring.IFMagazineCarpet1 = "Smears: Home carpets",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial1 = "Industrial flooring and design",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "Spiffo franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "Pizza Whirled franchisee specifications",
+}

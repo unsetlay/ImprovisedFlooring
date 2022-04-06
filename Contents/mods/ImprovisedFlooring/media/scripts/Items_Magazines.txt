@@ -1,0 +1,110 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    /* Carpet Recipes */
+    item IFMagazineCarpet1 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Smears: Home Carpets,
+        Icon = IFMagazineCarpet1,
+        TeachedRecipes = CarpetBeige;CarpetBlack;CarpetBordeaux;CarpetBrown;CarpetDarkGrey;CarpetDarkRed;CarpetGreen;CarpetGrey;CarpetGreyCurly;CarpetLightGreen;CarpetPurple;CarpetViolet;CarpetWhite;CarpetYellow,
+        ReplaceOnUse = IFMagazineCarpet1,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Carpet1,
+    }
+
+    /* Special Recipes */
+    item IFMagazineSpecial1 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Industrial flooring and design,
+        Icon = IFMagazineSpecial1,
+        TeachedRecipes = SpecialMallTileGrey;SpecialMallTileN;SpecialMallTileW;SpecialMallTileWhite,
+        ReplaceOnUse = IFMagazineSpecial1,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special1,
+    }
+
+    item IFMagazineSpecial2 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Spiffo Franchisee specifications,
+        Icon = IFMagazineSpecial2,
+        TeachedRecipes = SpecialSpiffoFloor,
+        ReplaceOnUse = IFMagazineSpecial2,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special2,
+    }
+
+    item IFMagazineSpecial3 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Pizza Whirled Franchisee specifications,
+        Icon = IFMagazineSpecial3,
+        TeachedRecipes = SpecialPizzaWhirledFloor,
+        ReplaceOnUse = IFMagazineSpecial3,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special3,
+    }
+
+    /* Tile Recipes: Basic colors */
+    item IFMagazineTiles1 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Dave Depot: Tile Catalog (Vol 1),
+        Icon = IFMagazineTiles1,
+        TeachedRecipes = TilesBeige;TilesBlack;TilesBrown;TilesDarkGrey;TilesGreen;TilesPurple;TilesGrey;TilesWhite;TilesYellow,
+        ReplaceOnUse = IFMagazineTiles1,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Tiles1,
+    }
+
+    /* Tile Recipes: Checkered */
+    item IFMagazineTiles2 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Dave Depot: Tile Catalog (Vol 2),
+        Icon = IFMagazineTiles2,
+        TeachedRecipes = TilesBeigeCheckered;TilesBlueCheckered;TilesGreyCheckered;TilesWhiteCheckered;TilesYellowCheckered;TilesDarkGreySquares;TilesGreySquares,
+        ReplaceOnUse = IFMagazineTiles2,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Tiles2,
+    }
+
+    /* Tile Recipes: Smooth and Diagonal */
+    item IFMagazineTiles3 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Dave Depot: Tile Catalog (Vol 3),
+        Icon = IFMagazineTiles3,
+        TeachedRecipes = TilesBeigeSmooth;TilesDarkGreySmooth;TilesBrownLarge;TilesGreySmooth;TilesWhiteSmooth;TilesBlackDiagonal;TilesGreenDiagonal;TilesGreyDiagonal;TilesWhiteDiagonal;TilesYellowDiagonal,
+        ReplaceOnUse = IFMagazineTiles3,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Tiles3,
+    }
+    
+    /* Wood Flooring Recipes */
+    item IFMagazineWood1 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Clowes: 1993 Wood flooring catalog,
+        Icon = IFMagazineWood1,
+        TeachedRecipes = WoodAcaciaFloor;WoodBirchwoodFloor;WoodBirchwoodFloorTiles;WoodChestnutNorthFloor;WoodChestnutWestFloor;WoodCinnamonFloor;WoodCinnamonNorthFloor;WoodCinnamonWestFloor;WoodFinewoodFloor;WoodHardwoodFloor;WoodHardwoodFloorTiles;WoodOakwoodFloor;WoodPinewoodFloorTiles,
+        ReplaceOnUse = IFMagazineWood1,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Wood1,
+    }
+
+}

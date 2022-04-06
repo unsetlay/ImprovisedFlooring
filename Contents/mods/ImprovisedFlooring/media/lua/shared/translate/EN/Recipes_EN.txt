@@ -1,0 +1,77 @@
+Recipe_EN = {
+    
+    /************************************************************
+    * WOOD FLOORING: Carpentry 3 ********************************
+    *************************************************************/
+    Recipe_WoodAcaciaFloor = "Wood: Acacia",
+    Recipe_WoodBirchwoodFloor = "Wood: Birchwood",
+    Recipe_WoodBirchwoodFloorTiles = "Wood: Birchwood Tiles",
+    Recipe_WoodChestnutNorthFloor = "Wood: Chestnut (North)",
+    Recipe_WoodChestnutWestFloor = "Wood: Chestnut (West)",
+    Recipe_WoodCinnamonFloor = "Wood: Cinnamon",
+    Recipe_WoodCinnamonNorthFloor = "Wood: Cinnamon (North)",
+    Recipe_WoodCinnamonWestFloor = "Wood: Cinnamon (West)",
+    Recipe_WoodFinewoodFloor = "Wood: Finewood",
+    Recipe_WoodHardwoodFloor = "Wood: Hardwood",
+    Recipe_WoodHardwoodFloorTiles = "Wood: Hardwood Tiles",
+    Recipe_WoodOakwoodFloor = "Wood: Oakwood",
+    Recipe_WoodPinewoodFloorTiles = "Wood: Pinewood Tiles",
+
+    /************************************************************
+    * CARPETS: Carpentry 3 + Tailoring 1 ************************
+    *************************************************************/
+    Recipe_CarpetBeige = "Carpet: Beige",
+    Recipe_CarpetBlack = "Carpet: Black",
+    Recipe_CarpetBordeaux = "Carpet: Bordeaux",
+    Recipe_CarpetBrown = "Carpet: Brown",
+    Recipe_CarpetDarkGrey = "Carpet: Dark Grey",
+    Recipe_CarpetDarkRed = "Carpet: Dark Red",
+    Recipe_CarpetGreen = "Carpet: Green",
+    Recipe_CarpetGrey = "Carpet: Grey",
+    Recipe_CarpetGreyCurly = "Carpet: Grey (Curly)",
+    Recipe_CarpetLightGreen = "Carpet: Light Green",
+    Recipe_CarpetPurple = "Carpet: Purple",
+    Recipe_CarpetViolet = "Carpet: Violet",
+    Recipe_CarpetWhite = "Carpet: White",
+    Recipe_CarpetYellow = "Carpet: Yellow",
+
+    /************************************************************
+    * TILES: Carpentry 5 ****************************************
+    *************************************************************/
+    Recipe_TilesBeige = "Tile: Beige",
+    Recipe_TilesBeigeCheckered = "Tile: Beige Checkered",
+    Recipe_TilesBeigeSmooth = "Tile: Beige Smooth",
+    Recipe_TilesBlack = "Tile: Black",
+    Recipe_TilesBlackDiagonal = "Tile: Black Diagonal",
+    Recipe_TilesBlueCheckered = "Tile: Blue Checkered",
+    Recipe_TilesBrown = "Tile: Brown",
+    Recipe_TilesBrownLarge = "Tile: Brown (Large)",
+    Recipe_TilesDarkGrey = "Tile: Dark Grey",
+    Recipe_TilesDarkGreySmooth = "Tile: Dark Grey Smooth",
+    Recipe_TilesDarkGreySquares = "Tile: Dark Grey Squares",
+    Recipe_TilesGreen = "Tile: Green",
+    Recipe_TilesGreenDiagonal = "Tile: Green Diagonal",
+    Recipe_TilesGrey = "Tile: Grey",
+    Recipe_TilesGreyCheckered = "Tile: Grey Checkered",
+    Recipe_TilesGreyDiagonal = "Tile: Grey Diagonal",
+    Recipe_TilesGreySmooth = "Tile: Grey Smooth",
+    Recipe_TilesGreySquares = "Tile: Grey Squares",
+    Recipe_TilesPurple = "Tile: Purple",
+    Recipe_TilesWhite = "Tile: White",
+    Recipe_TilesWhiteCheckered = "Tile: White Checkered",
+    Recipe_TilesWhiteDiagonal = "Tile: White Diagonal",
+    Recipe_TilesWhiteSmooth = "Tile: White Smooth",
+    Recipe_TilesYellow = "Tile: Yellow",
+    Recipe_TilesYellowCheckered = "Tile: Yellow Checkered",
+    Recipe_TilesYellowDiagonal = "Tile: Yellow Diagonal",
+
+    /************************************************************
+    * SPECIAL: Carpentry 8 **************************************
+    *************************************************************/
+    Recipe_SpecialMallTileGrey = "Special: Mall Tile (Grey)",
+    Recipe_SpecialMallTileN = "Special: Mall Tile (North)",
+    Recipe_SpecialMallTileW = "Special: Mall Tile (West)",
+    Recipe_SpecialMallTileWhite = "Special: Mall Tile (White)",
+    Recipe_SpecialPizzaWhirledFloor = "Special: Pizza Whirled Tile",
+    Recipe_SpecialSpiffoFloor = "Special: Spiffo's Tile",    
+}
