@@ -5,49 +5,49 @@ module ImprovisedFlooring {
 
     model Magazine_Carpet1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineCarpet1,
+        texture = other/World_SBIFMagazineCarpet1,
         scale = 0.4,
     }
 
     model Magazine_Special1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineSpecial1,
+        texture = other/World_SBIFMagazineSpecial1,
         scale = 0.4,
     }
 
     model Magazine_Special2 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineSpecial2,
+        texture = other/World_SBIFMagazineSpecial2,
         scale = 0.4,
     }
 
     model Magazine_Special3 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineSpecial3,
+        texture = other/World_SBIFMagazineSpecial3,
         scale = 0.4,
     }
 
     model Magazine_Tiles1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineTiles1,
+        texture = other/World_SBIFMagazineTiles1,
         scale = 0.4,
     }
 
     model Magazine_Tiles2 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineTiles2,
+        texture = other/World_SBIFMagazineTiles2,
         scale = 0.4,
     }
 
     model Magazine_Tiles3 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineTiles3,
+        texture = other/World_SBIFMagazineTiles3,
         scale = 0.4,
     }
 
     model Magazine_Wood1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_IFMagazineWood1,
+        texture = other/World_SBIFMagazineWood1,
         scale = 0.4,
     }
 
