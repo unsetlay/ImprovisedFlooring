@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_prof_Carpenter = "Carpenter",
+    UI_profdesc_carpenter = "Can make a variety of wooden floor tiles",
+}
