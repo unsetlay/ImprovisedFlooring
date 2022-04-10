@@ -71,8 +71,8 @@ description=ImprovisedFlooring.IFMagazineSpecial2
 description=ImprovisedFlooring.IFMagazineSpecial3
 description=[/code]
 description=
-description=Enable the included optional mode "[b]ImprovisedFlooringPlus[/b]" to expand your Paint and Plaster users to 10 items per bucket instead of the default 5 and 4.
+description=Enable the included optional mode "[b]ImprovisedFlooringPlus[/b]" to expand your Paint and Plaster users to 10 items per bucket instead of the default 5 and 4. Works well with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2789503316]Improvised Paint[/url]
 description=
 description=Source: [url=https://github.com/Orcicorn-ProjectZomboid/ImprovisedFlooring]Github[/url]
 tags=Build 41;Building;Misc
-visibility=unlisted
+visibility=public
