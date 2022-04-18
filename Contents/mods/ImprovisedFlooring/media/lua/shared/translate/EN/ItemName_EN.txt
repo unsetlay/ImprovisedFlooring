@@ -8,4 +8,5 @@ ItemName_EN = {
     ItemName_ImprovisedFlooring.IFMagazineSpecial1 = "Industrial flooring and design",
     ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "Spiffo franchisee specifications",
     ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "Pizza Whirled franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial4 = "Fossoil franchisee specifications",
 }

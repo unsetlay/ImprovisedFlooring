@@ -55,6 +55,18 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Special3,
     }
 
+    item IFMagazineSpecial4 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Fossoil Franchisee specifications,
+        Icon = SBIFMagazineSpecial4,
+        TeachedRecipes = SpecialFossoilBlueFloor;SpecialFossoilWhiteFloor,
+        ReplaceOnUse = IFMagazineSpecial4,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special4,
+    }
+
     /* Tile Recipes: Basic colors */
     item IFMagazineTiles1 {
         weight = 0.1,
