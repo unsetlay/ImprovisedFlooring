@@ -71,6 +71,8 @@ Recipe_EN = {
     * SPECIAL: Carpentry 8 **************************************
     *************************************************************/
     Recipe_SpecialBarFloor = "Special: Bar Floor",
+    Recipe_SpecialDinerFloor = "Special: Diner Floor",
+    Recipe_SpecialDinerFloorGreen = "Special: Diner Floor Green",
     Recipe_SpecialMallTileGrey = "Special: Mall Tile (Grey)",
     Recipe_SpecialMallTileN = "Special: Mall Tile (North)",
     Recipe_SpecialMallTileW = "Special: Mall Tile (West)",

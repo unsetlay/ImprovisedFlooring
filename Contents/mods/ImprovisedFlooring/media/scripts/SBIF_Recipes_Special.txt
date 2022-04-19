@@ -18,6 +18,32 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe SpecialDinerFloor {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintBlack,
+	    Result:Moveables.location_restaurant_diner_01_40,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialDinerFloorGreen {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintGreen/PaintCyan,
+	    Result:Moveables.location_restaurant_diner_01_41,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
     recipe SpecialFossoilBlueFloor {
         keep Hammer,
         keep Paintbrush,
