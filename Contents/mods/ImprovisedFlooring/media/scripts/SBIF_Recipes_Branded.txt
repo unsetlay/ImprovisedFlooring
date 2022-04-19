@@ -1,0 +1,60 @@
+
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe SpecialFossoilBlueFloor {
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintBlue,
+        Result:Moveables.location_shop_fossoil_01_39,
+        Time:60.0,
+        NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialFossoilWhiteFloor {
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintWhite,
+        Result:Moveables.location_shop_fossoil_01_38,
+        Time:60.0,
+        NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialPizzaWhirledFloor {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintRed,
+	    Result:Moveables.location_restaurant_pizzawhirled_01_16,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialSpiffoFloor {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintGreen,
+	    Result:Moveables.location_restaurant_spiffos_01_38,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+}
