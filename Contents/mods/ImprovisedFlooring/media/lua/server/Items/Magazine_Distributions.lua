@@ -174,6 +174,22 @@ table.insert(ProceduralDistributions.list["PlankStashMagazine"].items, 2);
 table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, "ImprovisedFlooring.IFMagazineSpecial6");
 table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, 0.5);
 
+-- Special 7 (Zippee's)
+table.insert(ProceduralDistributions.list["CrateBooks"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["CrateBooks"].items, 0.5);
+table.insert(ProceduralDistributions.list["FactoryLockers"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["FactoryLockers"].items, 2);
+table.insert(ProceduralDistributions.list["FilingCabinetGeneric"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["FilingCabinetGeneric"].items, 0.5);
+table.insert(ProceduralDistributions.list["OfficeCounter"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["OfficeCounter"].items, 1);
+table.insert(ProceduralDistributions.list["OfficeDeskHome"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["OfficeDeskHome"].items, 0.1);
+table.insert(ProceduralDistributions.list["PlankStashMagazine"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["PlankStashMagazine"].items, 2);
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, "ImprovisedFlooring.IFMagazineSpecial7");
+table.insert(ProceduralDistributions.list["PostOfficeMagazines"].items, 0.5);
+
 -- Tiles 1
 table.insert(ProceduralDistributions.list["BookstoreMisc"].items, "ImprovisedFlooring.IFMagazineTiles1");
 table.insert(ProceduralDistributions.list["BookstoreMisc"].items, 3);

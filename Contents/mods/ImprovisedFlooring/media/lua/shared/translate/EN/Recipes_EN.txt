@@ -91,4 +91,6 @@ Recipe_EN = {
     Recipe_SpecialSpiffoFloor = "Branded: Spiffo's Tile",
     Recipe_SpecialFossoilBlueFloor = "Branded: Fossoil Blue Floor",
     Recipe_SpecialFossoilWhiteFloor = "Branded: Fossoil White Floor",
+    Recipe_SpecialZippeeFloor1 = "Branded: Zippee Blue Floor",
+    Recipe_SpecialZippeeFloor2 = "Branded: Zippee Orange Floor",
 }

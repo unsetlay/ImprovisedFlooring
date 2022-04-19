@@ -109,4 +109,30 @@ module ImprovisedFlooring
         SkillRequired:Woodwork=8,
         Category:Flooring,
     }
+
+    recipe SpecialZippeeFloor1 {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintLightBlue,
+	    Result:Moveables.location_shop_zippee_01_6,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+    recipe SpecialZippeeFloor2 {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintOrange,
+	    Result:Moveables.location_shop_zippee_01_7,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
 }

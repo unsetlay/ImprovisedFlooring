@@ -91,6 +91,18 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Special6,
     }
 
+    item IFMagazineSpecial7 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Zippee Franchisee specifications,
+        Icon = SBIFMagazineSpecial7,
+        TeachedRecipes = SpecialZippeeFloor1;SpecialZippeeFloor2,
+        ReplaceOnUse = IFMagazineSpecial7,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special7,
+    }
+
     /* Tile Recipes: Basic colors */
     item IFMagazineTiles1 {
         weight = 0.1,
