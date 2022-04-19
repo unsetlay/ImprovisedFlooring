@@ -96,5 +96,17 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe SpecialMotelTile {
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintLightBrown,
+	    Result:Moveables.location_hospitality_sunstarmotel_02_16,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
 
 }

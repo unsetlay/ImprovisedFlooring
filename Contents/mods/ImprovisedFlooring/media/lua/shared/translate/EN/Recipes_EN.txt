@@ -77,6 +77,7 @@ Recipe_EN = {
     Recipe_SpecialMallTileN = "Special: Mall Tile (North)",
     Recipe_SpecialMallTileW = "Special: Mall Tile (West)",
     Recipe_SpecialMallTileWhite = "Special: Mall Tile (White)",
+    Recipe_SpecialMotelTile = "Special: Motel Tiled Floor",
     Recipe_SpecialPizzaWhirledFloor = "Special: Pizza Whirled Tile",
     Recipe_SpecialSpiffoFloor = "Special: Spiffo's Tile",
     Recipe_SpecialFossoilBlueFloor = "Special: Fossoil Blue Floor",

@@ -24,7 +24,7 @@ module ImprovisedFlooring
         Type = Literature,
         DisplayName = Industrial flooring and design,
         Icon = SBIFMagazineSpecial1,
-        TeachedRecipes = SpecialMallTileGrey;SpecialMallTileN;SpecialMallTileW;SpecialMallTileWhite;SpecialBarFloor;SpecialDinerFloor;SpecialDinerFloorGreen,
+        TeachedRecipes = SpecialMallTileGrey;SpecialMallTileN;SpecialMallTileW;SpecialMallTileWhite;SpecialBarFloor;SpecialDinerFloor;SpecialDinerFloorGreen;Recipe_SpecialMotelTile,
         ReplaceOnUse = IFMagazineSpecial1,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,
