@@ -11,7 +11,7 @@ module ImprovisedFlooring
         Type = Literature,
         DisplayName = Smears: Home Carpets,
         Icon = SBIFMagazineCarpet1,
-        TeachedRecipes = CarpetBeige;CarpetBlack;CarpetBordeaux;CarpetBrown;CarpetDarkGrey;CarpetDarkRed;CarpetGreen;CarpetGrey;CarpetGreyCurly;CarpetLightGreen;CarpetPurple;CarpetViolet;CarpetWhite;CarpetYellow,
+        TeachedRecipes = CarpetBeige;CarpetBlack;CarpetBordeaux;CarpetBrown;CarpetDarkGrey;CarpetDarkRed;CarpetGreen;CarpetGrey;CarpetGreyCurly;CarpetLightGreen;CarpetPurple;CarpetViolet;CarpetWhite;CarpetYellow;CarpetRed,
         ReplaceOnUse = IFMagazineCarpet1,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,

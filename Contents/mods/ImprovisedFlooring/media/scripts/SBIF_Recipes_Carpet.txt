@@ -159,6 +159,20 @@ module ImprovisedFlooring
         Sound:ClothesRipping,
     }
 
+    recipe CarpetRed {
+       keep KnittingNeedles,
+        keep Scissors,
+        RippedSheets=5,
+        PaintRed,
+	    Result:Moveables.floors_interior_carpet_01_9,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=3;Tailoring=1,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping, 
+    }
+
     recipe CarpetViolet {   
         keep KnittingNeedles,
         keep Scissors,

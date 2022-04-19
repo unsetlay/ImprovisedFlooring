@@ -31,6 +31,7 @@ Recipe_EN = {
     Recipe_CarpetGreyCurly = "Carpet: Grey (Curly)",
     Recipe_CarpetLightGreen = "Carpet: Light Green",
     Recipe_CarpetPurple = "Carpet: Purple",
+    Recipe_CarpetRed = "Carpet: Red",
     Recipe_CarpetViolet = "Carpet: Violet",
     Recipe_CarpetWhite = "Carpet: White",
     Recipe_CarpetYellow = "Carpet: Yellow",
