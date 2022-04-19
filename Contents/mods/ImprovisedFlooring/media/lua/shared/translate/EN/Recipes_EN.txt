@@ -70,22 +70,22 @@ Recipe_EN = {
     /************************************************************
     * SPECIAL: Carpentry 8 **************************************
     *************************************************************/
-    Recipe_SpecialBarFloor = "Special: Bar Floor",
-    Recipe_SpecialDinerFloor = "Special: Diner Floor",
-    Recipe_SpecialDinerFloorGreen = "Special: Diner Floor Green",
-    Recipe_SpecialMallTileGrey = "Special: Mall Tile (Grey)",
-    Recipe_SpecialMallTileN = "Special: Mall Tile (North)",
-    Recipe_SpecialMallTileW = "Special: Mall Tile (West)",
-    Recipe_SpecialMallTileWhite = "Special: Mall Tile (White)",
-    Recipe_SpecialMotelTile = "Special: Motel Tiled Floor",
-    Recipe_SpecialPieStoreFloor = "Special: Pie Store Floor",
+    Recipe_SpecialBarFloor = "Industrial: Bar Floor",
+    Recipe_SpecialDinerFloor = "Industrial: Diner Floor",
+    Recipe_SpecialDinerFloorGreen = "Industrial: Diner Floor Green",
+    Recipe_SpecialMallTileGrey = "Industrial: Mall Tile (Grey)",
+    Recipe_SpecialMallTileN = "Industrial: Mall Tile (North)",
+    Recipe_SpecialMallTileW = "Industrial: Mall Tile (West)",
+    Recipe_SpecialMallTileWhite = "Industrial: Mall Tile (White)",
+    Recipe_SpecialMotelTile = "Industrial: Motel Tiled Floor",
+    Recipe_SpecialPieStoreFloor = "Industrial: Pie Store Floor",
 
     /************************************************************
     * BRANDED: Carpentry 8 **************************************
     *************************************************************/
-    Recipe_SpecialPileOCrepeFloor = "Special: Pile o'Crepe Floor",
-    Recipe_SpecialPizzaWhirledFloor = "Special: Pizza Whirled Tile",
-    Recipe_SpecialSpiffoFloor = "Special: Spiffo's Tile",
-    Recipe_SpecialFossoilBlueFloor = "Special: Fossoil Blue Floor",
-    Recipe_SpecialFossoilWhiteFloor = "Special: Fossoil White Floor",
+    Recipe_SpecialPileOCrepeFloor = "Branded: Pile o'Crepe Floor",
+    Recipe_SpecialPizzaWhirledFloor = "Branded: Pizza Whirled Tile",
+    Recipe_SpecialSpiffoFloor = "Branded: Spiffo's Tile",
+    Recipe_SpecialFossoilBlueFloor = "Branded: Fossoil Blue Floor",
+    Recipe_SpecialFossoilWhiteFloor = "Branded: Fossoil White Floor",
 }
