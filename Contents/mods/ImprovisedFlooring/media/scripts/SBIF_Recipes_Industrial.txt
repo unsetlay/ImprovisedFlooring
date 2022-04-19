@@ -18,6 +18,19 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe SpecialBowlingFloor {   
+        keep Saw/GardenSaw,
+        keep Hammer,
+        Plank=2,
+        Nails=8,
+	    Result:Moveables.recreational_sports_01_63,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
+
     recipe SpecialDinerFloor {   
         keep Hammer,
         keep Paintbrush,
