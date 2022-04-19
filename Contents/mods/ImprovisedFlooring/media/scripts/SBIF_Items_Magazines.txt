@@ -79,6 +79,18 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Special5,
     }
 
+    item IFMagazineSpecial6 {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Greene's Franchisee specifications,
+        Icon = SBIFMagazineSpecial6,
+        TeachedRecipes = SpecialGreenesCarpet;SpecialGreenesCarpet2;SpecialGreenesFloor,
+        ReplaceOnUse = IFMagazineSpecial6,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special6,
+    }
+
     /* Tile Recipes: Basic colors */
     item IFMagazineTiles1 {
         weight = 0.1,

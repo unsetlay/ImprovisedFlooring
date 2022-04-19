@@ -39,6 +39,12 @@ module ImprovisedFlooring {
         scale = 0.4,
     }
 
+    model Magazine_Special6 {
+        mesh = WorldItems/Magazine,
+        texture = other/World_SBIFMagazineSpecial6,
+        scale = 0.4,
+    }
+
     model Magazine_Tiles1 {
         mesh = WorldItems/Magazine,
         texture = other/World_SBIFMagazineTiles1,
