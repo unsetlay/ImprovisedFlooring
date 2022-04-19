@@ -109,4 +109,17 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe SpecialPieStoreFloor {
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        BucketPlasterFull=1,
+        PaintBrown,
+	    Result:Moveables.location_restaurant_pie_01_7,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
 }

@@ -78,6 +78,7 @@ Recipe_EN = {
     Recipe_SpecialMallTileW = "Special: Mall Tile (West)",
     Recipe_SpecialMallTileWhite = "Special: Mall Tile (White)",
     Recipe_SpecialMotelTile = "Special: Motel Tiled Floor",
+    Recipe_SpecialPieStoreFloor = "Special: Pie Store Floor",
 
     /************************************************************
     * BRANDED: Carpentry 8 **************************************
