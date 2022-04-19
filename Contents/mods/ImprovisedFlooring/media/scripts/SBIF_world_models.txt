@@ -33,9 +33,9 @@ module ImprovisedFlooring {
         scale = 0.4,
     }
 
-    model Magazine_Branded4 {
+    model Magazine_Special5 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineBranded4,
+        texture = other/World_SBIFMagazineSpecial5,
         scale = 0.4,
     }
 

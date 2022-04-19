@@ -9,5 +9,5 @@ ItemName_EN = {
     ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "Spiffo franchisee specifications",
     ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "Pizza Whirled franchisee specifications",
     ItemName_ImprovisedFlooring.IFMagazineSpecial4 = "Fossoil franchisee specifications",
-    ItemName_ImprovisedFlooring.IFMagazineBranded4 = "Pile o'Crepe franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial5 = "Pile o'Crepe franchisee specifications",
 }

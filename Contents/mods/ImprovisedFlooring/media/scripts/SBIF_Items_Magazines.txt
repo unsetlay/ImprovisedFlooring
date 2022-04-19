@@ -67,16 +67,16 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Special4,
     }
 
-    item IFMagazineBranded4 {
+    item IFMagazineSpecial5 {
         weight = 0.1,
         Type = Literature,
         DisplayName = Pile o'Crepe Franchisee specifications,
-        Icon = SBIFMagazineBranded4,
+        Icon = SBIFMagazineSpecial5,
         TeachedRecipes = SpecialPileOCrepeFloor,
-        ReplaceOnUse = IFMagazineBranded4,
+        ReplaceOnUse = IFMagazineSpecial5,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,
-        WorldStaticModel = ImprovisedFlooring.Magazine_Branded4,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Special5,
     }
 
     /* Tile Recipes: Basic colors */
