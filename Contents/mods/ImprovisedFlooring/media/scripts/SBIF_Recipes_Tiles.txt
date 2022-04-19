@@ -197,6 +197,18 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe TilesGreyDiagonal2 {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintGrey,
+	    Result:Moveables.floors_interior_tilesandwood_01_0,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
     recipe TilesGreySmooth {
         keep Paintbrush,
         Plank,

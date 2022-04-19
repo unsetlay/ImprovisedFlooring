@@ -86,7 +86,7 @@ module ImprovisedFlooring
         Type = Literature,
         DisplayName = Dave Depot: Tile Catalog (Vol 2),
         Icon = SBIFMagazineTiles2,
-        TeachedRecipes = TilesBeigeCheckered;TilesBlueCheckered;TilesGreyCheckered;TilesWhiteCheckered;TilesYellowCheckered;TilesDarkGreySquares;TilesGreySquares,
+        TeachedRecipes = TilesBeigeCheckered;TilesBlueCheckered;TilesGreyCheckered;TilesWhiteCheckered;TilesYellowCheckered;TilesDarkGreySquares;TilesGreySquares;Recipe_TilesGreyDiagonal2,
         ReplaceOnUse = IFMagazineTiles2,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,
