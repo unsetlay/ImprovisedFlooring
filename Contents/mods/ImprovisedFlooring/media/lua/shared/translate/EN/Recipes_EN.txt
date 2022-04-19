@@ -83,6 +83,7 @@ Recipe_EN = {
     /************************************************************
     * BRANDED: Carpentry 8 **************************************
     *************************************************************/
+    Recipe_SpecialPileOCrepeFloor = "Special: Pile o'Crepe Floor",
     Recipe_SpecialPizzaWhirledFloor = "Special: Pizza Whirled Tile",
     Recipe_SpecialSpiffoFloor = "Special: Spiffo's Tile",
     Recipe_SpecialFossoilBlueFloor = "Special: Fossoil Blue Floor",

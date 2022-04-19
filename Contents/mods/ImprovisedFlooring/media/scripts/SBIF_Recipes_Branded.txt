@@ -32,6 +32,18 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe SpecialPileOCrepeFloor {   
+        keep Hammer,
+        keep Paintbrush,
+        Plank=2,
+        Nails=4,
+	    Result:Moveables.location_restaurant_pileocrepe_01_14,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=8,
+        Category:Flooring,
+    }
+
     recipe SpecialPizzaWhirledFloor {   
         keep Hammer,
         keep Paintbrush,
