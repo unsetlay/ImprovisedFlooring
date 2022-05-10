@@ -23,7 +23,7 @@ module ImprovisedFlooring
         keep Hammer,
         Plank=2,
         Nails=8,
-	    Result:Moveables.recreational_sports_01_63,
+	    Result:Moveables.improvisedflooring_missing_0_8,
 	    Time:60.0,
 	    NeedToBeLearn:True,
         SkillRequired:Woodwork=8,
