@@ -59,6 +59,7 @@ Recipe_EN = {
     Recipe_TilesGreySmooth = "Tile: Grey Smooth",
     Recipe_TilesGreySquares = "Tile: Grey Squares",
     Recipe_TilesPurple = "Tile: Purple",
+    Recipe_TilesRed = "Tile: Red",
     Recipe_TilesWhite = "Tile: White",
     Recipe_TilesWhiteCheckered = "Tile: White Checkered",
     Recipe_TilesWhiteDiagonal = "Tile: White Diagonal",

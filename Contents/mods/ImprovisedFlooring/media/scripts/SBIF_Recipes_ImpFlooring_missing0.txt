@@ -1,0 +1,21 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    /* Red Tiles: Added to Tiles1 */
+    recipe TilesRed {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintRed,
+	    Result:Moveables.improvisedflooring_missing_0_2,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
+}
