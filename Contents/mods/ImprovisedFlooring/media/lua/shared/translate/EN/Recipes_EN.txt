@@ -1,5 +1,6 @@
 Recipe_EN = {
-    
+
+    /* !!!!!!!! FREE RECIPES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
     /************************************************************
     * WOOD FLOORING *********************************************
     *************************************************************/
@@ -48,6 +49,26 @@ Recipe_EN = {
     Recipe_CanvasBlue = "Canvas: Blue",
     Recipe_CanvasGreen = "Canvas: Green",
     Recipe_CanvasGrey = "Canvas: Grey",
+
+    /************************************************************
+    * METALWORKING FLOORING *************************************
+    *************************************************************/
+    /* MetalWelding 1 */
+    Recipe_MetalPlateDarkWest = "Metal: Plate (West)",
+    Recipe_MetalPlateDarkNorth = "Metal: Plate (North)",
+    Recipe_MetalPlateRedWest = "Metal: Red Plate (West)",
+    Recipe_MetalPlateRedNorth = "Metal: Red Plate (North)",
+
+    /* MetalWelding 2 */
+    Recipe_MetalSewerCoverWest = "Metal: Grated Pipes (West)",
+    Recipe_MetalSewerCoverNorth = "Metal: Grated Pipes (North)",
+
+    /* MetalWelding 3 */
+    Recipe_MetalGrateWest = "Metal: Grate (West)",
+    Recipe_MetalGrateNorth = "Metal: Grate (North)",
+    Recipe_MetalGrate = "Metal: Grate",
+
+    /* !!!!!!!! MAGAZINE RECIPES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
     /************************************************************
     * TILE FLOORING *********************************************
