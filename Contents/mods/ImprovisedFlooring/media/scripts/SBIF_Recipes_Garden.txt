@@ -51,7 +51,7 @@ module ImprovisedFlooring
         PaintGreen,
 	    Result:Moveables.improvisedflooring_missing_0_15,
 	    Time:30.0,
-	    NeedToBeLearn:False,
+	    NeedToBeLearn:True,
         SkillRequired:Farming=1;Tailoring=1,
         Category:Flooring,
         AnimNode:Craft,
