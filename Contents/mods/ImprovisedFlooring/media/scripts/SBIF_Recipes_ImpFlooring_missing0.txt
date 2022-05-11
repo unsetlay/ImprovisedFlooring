@@ -18,4 +18,53 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    /* Canvas Flooring: Added to Carpets */
+    recipe CanvasBeige {   
+        keep Scissors,
+        RippedSheets=6,
+        PaintLightBrown,
+	    Result:Moveables.improvisedflooring_missing_0_11,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Tailoring=1,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
+    recipe CanvasBlue {   
+        keep Scissors,
+        RippedSheets=6,
+        PaintBlue,
+	    Result:Moveables.improvisedflooring_missing_0_12,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Tailoring=1,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
+    recipe CanvasGreen {   
+        keep Scissors,
+        RippedSheets=6,
+        PaintGreen,
+	    Result:Moveables.improvisedflooring_missing_0_9,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Tailoring=1,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
+    recipe CanvasGrey {   
+        keep Scissors,
+        RippedSheets=6,
+        PaintGray,
+	    Result:Moveables.improvisedflooring_missing_0_10,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Tailoring=1,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
 }

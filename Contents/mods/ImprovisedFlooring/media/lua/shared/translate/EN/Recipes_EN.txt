@@ -35,6 +35,10 @@ Recipe_EN = {
     Recipe_CarpetViolet = "Carpet: Violet",
     Recipe_CarpetWhite = "Carpet: White",
     Recipe_CarpetYellow = "Carpet: Yellow",
+    Recipe_CanvasBeige = "Canvas: Beige",
+    Recipe_CanvasBlue = "Canvas: Blue",
+    Recipe_CanvasGreen = "Canvas: Green",
+    Recipe_CanvasGrey = "Canvas: Grey",
 
     /************************************************************
     * TILES: Carpentry 5 ****************************************
