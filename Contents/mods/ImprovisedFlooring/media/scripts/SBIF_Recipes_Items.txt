@@ -1,0 +1,17 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe MakeConcreteBucket {
+        keep HandShovel,
+        ConcretePowder,
+        BucketWaterFull,
+        Result:BucketConcreteFull,
+        Time: 30.0,
+        NeedToBeLearn: False,
+    }
+
+}
