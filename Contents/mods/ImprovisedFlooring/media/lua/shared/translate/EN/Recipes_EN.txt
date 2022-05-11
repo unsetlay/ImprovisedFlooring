@@ -1,33 +1,8 @@
 Recipe_EN = {
-
-    /* !!!!!!!! FREE RECIPES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-    /************************************************************
-    * WOOD FLOORING *********************************************
-    *************************************************************/
-    /* Woodworking 1 */
-    Recipe_WoodBirchwoodFloor = "Wood: Birchwood",
-    Recipe_WoodChestnutNorthFloor = "Wood: Chestnut (North)",
-    Recipe_WoodChestnutWestFloor = "Wood: Chestnut (West)",
-    Recipe_WoodCinnamonNorthFloor = "Wood: Cinnamon (North)",
-    Recipe_WoodCinnamonWestFloor = "Wood: Cinnamon (West)",
-    Recipe_WoodOakwoodFloor = "Wood: Oakwood",
-
-    /* Woodworking 2 */
-    Recipe_WoodFinewoodFloor = "Wood: Finewood",
-    Recipe_WoodHardwoodFloor = "Wood: Hardwood",
-    Recipe_WoodPinewoodFloorTiles = "Wood: Pinewood Tiles",
-
-    /* Woodworking 3 */
-    Recipe_WoodAcaciaFloor = "Wood: Acacia",
-    Recipe_WoodBirchwoodFloorTiles = "Wood: Birchwood Tiles",
-    Recipe_WoodCinnamonFloor = "Wood: Cinnamon",
-    Recipe_WoodHardwoodFloorTiles = "Wood: Hardwood Tiles",
-
-
-    /************************************************************
-    * CARPETS AND CANVAS FLOORING *******************************
-    *************************************************************/
-    /* Tailoring 1 */
+    Recipe_CanvasBeige = "Canvas: Beige",
+    Recipe_CanvasBlue = "Canvas: Blue",
+    Recipe_CanvasGreen = "Canvas: Green",
+    Recipe_CanvasGrey = "Canvas: Grey",
     Recipe_CarpetBeige = "Carpet: Beige",
     Recipe_CarpetBlack = "Carpet: Black",
     Recipe_CarpetBordeaux = "Carpet: Bordeaux",
@@ -43,37 +18,39 @@ Recipe_EN = {
     Recipe_CarpetViolet = "Carpet: Violet",
     Recipe_CarpetWhite = "Carpet: White",
     Recipe_CarpetYellow = "Carpet: Yellow",
-
-    /* Tailoring 3 */
-    Recipe_CanvasBeige = "Canvas: Beige",
-    Recipe_CanvasBlue = "Canvas: Blue",
-    Recipe_CanvasGreen = "Canvas: Green",
-    Recipe_CanvasGrey = "Canvas: Grey",
-
-    /************************************************************
-    * METALWORKING FLOORING *************************************
-    *************************************************************/
-    /* MetalWelding 1 */
+    Recipe_GardenPaverColorful = "Paver: Colorful Stone",
+    Recipe_GardenPaverGrey = "Paver: Grey Stone",
+    Recipe_GardenPaverRed = "Paver: Red Stone",
+    Recipe_GardenFakeGrass = "Fake Grass",
+    Recipe_MetalGrate = "Metal: Grate",
+    Recipe_MetalGrateWest = "Metal: Grate (West)",
+    Recipe_MetalGrateNorth = "Metal: Grate (North)",
     Recipe_MetalPlateDarkWest = "Metal: Plate (West)",
     Recipe_MetalPlateDarkNorth = "Metal: Plate (North)",
     Recipe_MetalPlateRedWest = "Metal: Red Plate (West)",
     Recipe_MetalPlateRedNorth = "Metal: Red Plate (North)",
-
-    /* MetalWelding 2 */
     Recipe_MetalSewerCoverWest = "Metal: Grated Pipes (West)",
     Recipe_MetalSewerCoverNorth = "Metal: Grated Pipes (North)",
-
-    /* MetalWelding 3 */
-    Recipe_MetalGrateWest = "Metal: Grate (West)",
-    Recipe_MetalGrateNorth = "Metal: Grate (North)",
-    Recipe_MetalGrate = "Metal: Grate",
-
-    /* !!!!!!!! MAGAZINE RECIPES !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-    /************************************************************
-    * TILE FLOORING *********************************************
-    *************************************************************/
-    /* Woodworking 5 */
+    Recipe_SpecialBarFloor = "Industrial: Bar Floor",
+    Recipe_SpecialBowlingFloor = "Industrial: Bowling Lane Floor",
+    Recipe_SpecialDinerFloor = "Industrial: Diner Floor",
+    Recipe_SpecialDinerFloorGreen = "Industrial: Diner Floor Green",
+    Recipe_SpecialFossoilBlueFloor = "Branded: Fossoil Blue Floor",
+    Recipe_SpecialFossoilWhiteFloor = "Branded: Fossoil White Floor",
+    Recipe_SpecialGreenesCarpet = "Branded: Greene's Carpet (North)",
+    Recipe_SpecialGreenesCarpet2 = "Branded: Greene's Carpet (West)",
+    Recipe_SpecialGreenesFloor = "Branded: Greene's Floor",
+    Recipe_SpecialMallTileGrey = "Industrial: Mall Tile (Grey)",
+    Recipe_SpecialMallTileN = "Industrial: Mall Tile (North)",
+    Recipe_SpecialMallTileW = "Industrial: Mall Tile (West)",
+    Recipe_SpecialMallTileWhite = "Industrial: Mall Tile (White)",
+    Recipe_SpecialMotelTile = "Industrial: Motel Tiled Floor",
+    Recipe_SpecialPieStoreFloor = "Industrial: Pie Store Floor",
+    Recipe_SpecialPileOCrepeFloor = "Branded: Pile o'Crepe Floor",
+    Recipe_SpecialPizzaWhirledFloor = "Branded: Pizza Whirled Tile",
+    Recipe_SpecialSpiffoFloor = "Branded: Spiffo's Tile",
+    Recipe_SpecialZippeeFloor1 = "Branded: Zippee Blue Floor",
+    Recipe_SpecialZippeeFloor2 = "Branded: Zippee Orange Floor",
     Recipe_TilesBeige = "Tile: Beige",
     Recipe_TilesBeigeCheckered = "Tile: Beige Checkered",
     Recipe_TilesBeigeSmooth = "Tile: Beige Smooth",
@@ -102,34 +79,17 @@ Recipe_EN = {
     Recipe_TilesYellow = "Tile: Yellow",
     Recipe_TilesYellowCheckered = "Tile: Yellow Checkered",
     Recipe_TilesYellowDiagonal = "Tile: Yellow Diagonal",
-
-    /************************************************************
-    * INDUSTRIAL FLOORING ***************************************
-    *************************************************************/
-    /* Woodworking 8 */
-    Recipe_SpecialBarFloor = "Industrial: Bar Floor",
-    Recipe_SpecialDinerFloor = "Industrial: Diner Floor",
-    Recipe_SpecialDinerFloorGreen = "Industrial: Diner Floor Green",
-    Recipe_SpecialMallTileGrey = "Industrial: Mall Tile (Grey)",
-    Recipe_SpecialMallTileN = "Industrial: Mall Tile (North)",
-    Recipe_SpecialMallTileW = "Industrial: Mall Tile (West)",
-    Recipe_SpecialMallTileWhite = "Industrial: Mall Tile (White)",
-    Recipe_SpecialMotelTile = "Industrial: Motel Tiled Floor",
-    Recipe_SpecialPieStoreFloor = "Industrial: Pie Store Floor",
-    Recipe_SpecialBowlingFloor = "Industrial: Bowling Lane Floor",
-
-    /************************************************************
-    * BRANDED FLOORING ******************************************
-    *************************************************************/
-    /* Woodworking 8 */
-    Recipe_SpecialGreenesCarpet = "Branded: Greene's Carpet (North)",
-    Recipe_SpecialGreenesCarpet2 = "Branded: Greene's Carpet (West)",
-    Recipe_SpecialGreenesFloor = "Branded: Greene's Floor",
-    Recipe_SpecialPileOCrepeFloor = "Branded: Pile o'Crepe Floor",
-    Recipe_SpecialPizzaWhirledFloor = "Branded: Pizza Whirled Tile",
-    Recipe_SpecialSpiffoFloor = "Branded: Spiffo's Tile",
-    Recipe_SpecialFossoilBlueFloor = "Branded: Fossoil Blue Floor",
-    Recipe_SpecialFossoilWhiteFloor = "Branded: Fossoil White Floor",
-    Recipe_SpecialZippeeFloor1 = "Branded: Zippee Blue Floor",
-    Recipe_SpecialZippeeFloor2 = "Branded: Zippee Orange Floor",
+    Recipe_WoodBirchwoodFloor = "Wood: Birchwood",
+    Recipe_WoodChestnutNorthFloor = "Wood: Chestnut (North)",
+    Recipe_WoodChestnutWestFloor = "Wood: Chestnut (West)",
+    Recipe_WoodCinnamonNorthFloor = "Wood: Cinnamon (North)",
+    Recipe_WoodCinnamonWestFloor = "Wood: Cinnamon (West)",
+    Recipe_WoodOakwoodFloor = "Wood: Oakwood",
+    Recipe_WoodFinewoodFloor = "Wood: Finewood",
+    Recipe_WoodHardwoodFloor = "Wood: Hardwood",
+    Recipe_WoodPinewoodFloorTiles = "Wood: Pinewood Tiles",
+    Recipe_WoodAcaciaFloor = "Wood: Acacia",
+    Recipe_WoodBirchwoodFloorTiles = "Wood: Birchwood Tiles",
+    Recipe_WoodCinnamonFloor = "Wood: Cinnamon",
+    Recipe_WoodHardwoodFloorTiles = "Wood: Hardwood Tiles",
 }

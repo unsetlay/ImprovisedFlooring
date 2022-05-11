@@ -1,0 +1,112 @@
+FREE RECIPES
+    Woodworking 1
+        Recipe_WoodBirchwoodFloor
+        Recipe_WoodChestnutNorthFloor
+        Recipe_WoodChestnutWestFloor
+        Recipe_WoodCinnamonNorthFloor
+        Recipe_WoodCinnamonWestFloor
+        Recipe_WoodOakwoodFloor
+    Woodworking 2
+        Recipe_WoodFinewoodFloor
+        Recipe_WoodHardwoodFloor
+        Recipe_WoodPinewoodFloorTiles
+    WoodWorking 3
+        Recipe_WoodAcaciaFloor
+        Recipe_WoodBirchwoodFloorTiles
+        Recipe_WoodCinnamonFloor
+        Recipe_WoodHardwoodFloorTiles
+    Tailoring 1
+        Recipe_CarpetBeige
+        Recipe_CarpetBlack
+        Recipe_CarpetBordeaux
+        Recipe_CarpetBrown
+        Recipe_CarpetDarkGrey
+        Recipe_CarpetDarkRed
+        Recipe_CarpetGreen
+        Recipe_CarpetGrey
+        Recipe_CarpetGreyCurly
+        Recipe_CarpetLightGreen
+        Recipe_CarpetPurple
+        Recipe_CarpetRed
+        Recipe_CarpetViolet
+        Recipe_CarpetWhite
+        Recipe_CarpetYellow
+    Tailoring 3
+        Recipe_CanvasBeige
+        Recipe_CanvasBlue
+        Recipe_CanvasGreen
+        Recipe_CanvasGrey
+    MetalWelding 1
+        Recipe_MetalPlateDarkWest
+        Recipe_MetalPlateDarkNorth
+        Recipe_MetalPlateRedWest
+        Recipe_MetalPlateRedNorth
+    MetalWelding 2
+        Recipe_MetalSewerCoverWest
+        Recipe_MetalSewerCoverNorth
+    MetalWelding 3
+        Recipe_MetalGrateWest
+        Recipe_MetalGrateNorth
+        Recipe_MetalGrate
+---------------------------------------------------------------------------
+MAGAZINE RECIPES
+    Tile Magazine
+        Woodworking 5
+            Recipe_TilesBeige
+            Recipe_TilesBeigeCheckered
+            Recipe_TilesBeigeSmooth
+            Recipe_TilesBlack
+            Recipe_TilesBlackDiagonal
+            Recipe_TilesBlueCheckered
+            Recipe_TilesBrown
+            Recipe_TilesBrownLarge
+            Recipe_TilesDarkGrey
+            Recipe_TilesDarkGreySmooth
+            Recipe_TilesDarkGreySquares
+            Recipe_TilesGreen
+            Recipe_TilesGreenDiagonal
+            Recipe_TilesGrey
+            Recipe_TilesGreyCheckered
+            Recipe_TilesGreyDiagonal
+            Recipe_TilesGreyDiagonal2
+            Recipe_TilesGreySmooth
+            Recipe_TilesGreySquares
+            Recipe_TilesPurple
+            Recipe_TilesRed
+            Recipe_TilesWhite
+            Recipe_TilesWhiteCheckered
+            Recipe_TilesWhiteDiagonal
+            Recipe_TilesWhiteSmooth
+            Recipe_TilesYellow
+            Recipe_TilesYellowCheckered
+            Recipe_TilesYellowDiagonal
+    Garden Magazine
+        Woodworking 1 & Farming 1
+            Recipe_GardenPaverColorful
+            Recipe_GardenPaverGrey
+            Recipe_GardenPaverRed
+            Recipe_GardenFakeGrass
+    Industrial Magazine
+        Woodworking 8
+            Recipe_SpecialBarFloor
+            Recipe_SpecialDinerFloor
+            Recipe_SpecialDinerFloorGreen
+            Recipe_SpecialMallTileGrey
+            Recipe_SpecialMallTileN
+            Recipe_SpecialMallTileW
+            Recipe_SpecialMallTileWhite
+            Recipe_SpecialMotelTile
+            Recipe_SpecialPieStoreFloor
+            Recipe_SpecialBowlingFloor
+    Franchise Magazine
+        Woodworking 8
+        Recipe_SpecialGreenesCarpet
+        Recipe_SpecialGreenesCarpet2
+        Recipe_SpecialGreenesFloor
+        Recipe_SpecialPileOCrepeFloor
+        Recipe_SpecialPizzaWhirledFloor
+        Recipe_SpecialSpiffoFloor
+        Recipe_SpecialFossoilBlueFloor
+        Recipe_SpecialFossoilWhiteFloor
+        Recipe_SpecialZippeeFloor1
+        Recipe_SpecialZippeeFloor2
