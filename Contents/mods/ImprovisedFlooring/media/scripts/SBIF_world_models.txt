@@ -27,6 +27,12 @@ module ImprovisedFlooring {
         scale = 0.4,
     }
 
+    model Magazine_Nostalgia {
+        mesh = WorldItems/Magazine,
+        texture = worlditems/IFMagazine_Nostalgia,
+        scale = 0.4,
+    }
+
     model Magazine_Urban {
         mesh = WorldItems/Magazine,
         texture = worlditems/IFMagazine_Urban,

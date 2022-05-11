@@ -11,6 +11,8 @@ require 'Items/ProceduralDistributions'
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 1000);
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "ImprovisedFlooring.IFMagazineUrban");
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 1000);
+-- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
+-- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 1000);
 
 -- IFMagazineTiles (Dave Depot: Tile Catalog)
 table.insert(ProceduralDistributions.list["BinGeneric"].items, "ImprovisedFlooring.IFMagazineTiles");
@@ -230,6 +232,10 @@ table.insert(ProceduralDistributions.list["ShelfGeneric"].items, 0.1);
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "ImprovisedFlooring.IFMagazineUrban");
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 2);
 
--- DaycareCounter
--- DayCareShelves
--- GigamartToys
+-- IFMagazineEasterEgg (Nostalgic Carpet)
+table.insert(ProceduralDistributions.list["DaycareCounter"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
+table.insert(ProceduralDistributions.list["DaycareCounter"].items, 0.01);
+table.insert(ProceduralDistributions.list["DaycareShelves"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
+table.insert(ProceduralDistributions.list["DaycareShelves"].items, 0.01);
+table.insert(ProceduralDistributions.list["GigamartToys"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
+table.insert(ProceduralDistributions.list["GigamartToys"].items, 0.01);

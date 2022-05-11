@@ -43,6 +43,26 @@ function AddRecipesToExistingPlayers(id, player)
         player:learnRecipe("SpecialBowlingFloor");
     end
 
+    -- If you are unemployed and illiterate: Easter Egg!
+    if profession == "unemployed" then
+        if player:getTraits():isIlliterate() then
+            player:learnRecipe("EasterEggNostalgiaIlliterate")
+        end
+    end
+
+    -- If you are unemployes AND illiterate, free carpet!
+    -- if profession == "unemployed" then
+    --     player:learnRecipe("EasterEggNostalgia")
+    -- end
+    -- if player:getTraits():isIlliterate() then
+    --     player:learnRecipe("EasterEggNostalgia")
+    -- end
+
+    --     if getSpecificPlayer(player):getTraits():isIlliterate() then
+    --         player:learnRecipe("EasterEggNostalgia");
+    --     end
+    -- end
+
 end
 
 -- Character loads into the world

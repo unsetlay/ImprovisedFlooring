@@ -108,4 +108,8 @@ Recipe_EN = {
     Recipe_WoodBirchwoodFloorTiles = "Wood: Birchwood Tiles",
     Recipe_WoodCinnamonFloor = "Wood: Cinnamon",
     Recipe_WoodHardwoodFloorTiles = "Wood: Hardwood Tiles",
+
+    /* Easter Egg */
+    Recipe_EasterEggNostalgia = "Carpet: Nostalgia",
+    Recipe_EasterEggNostalgiaIlliterate = "AAAH! CaRPeT gO VrOOm vRoOM!",
 }
