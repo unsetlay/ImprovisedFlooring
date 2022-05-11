@@ -1,4 +1,8 @@
 Recipe_EN = {
+    /* Items */
+    Recipe_MakeConcreteBucket = "Make Bucket of Concrete",
+
+    /* Flooring */
     Recipe_CanvasBeige = "Canvas: Beige",
     Recipe_CanvasBlue = "Canvas: Blue",
     Recipe_CanvasGreen = "Canvas: Green",
@@ -79,6 +83,18 @@ Recipe_EN = {
     Recipe_TilesYellow = "Tile: Yellow",
     Recipe_TilesYellowCheckered = "Tile: Yellow Checkered",
     Recipe_TilesYellowDiagonal = "Tile: Yellow Diagonal",
+    Recipe_UrbanRoad1 = "Road: Concrete (Smooth)",
+    Recipe_UrbanRoad2 = "Road: Kankar",
+    Recipe_UrbanRoad3 = "Road: Concrete",
+    Recipe_UrbanRoad4 = "Road: Kankar (Smooth)",
+    Recipe_UrbanRoad5 = "Road: Bituminous (Smooth)",
+    Recipe_UrbanRoad6 = "Road: Bituminous",
+    Recipe_UrbanRoad7 = "Road: Concrete (Light)",
+    Recipe_UrbanRoad8 = "Road: Ashphalt",
+    Recipe_UrbanSidewalk1 = "Sidewalk (Type 1)",
+    Recipe_UrbanSidewalk2 = "Sidewalk (Type 2)",
+    Recipe_UrbanSidewalk3 = "Sidewalk (Type 3)",
+    Recipe_UrbanSidewalk4 = "Sidewalk (Type 4)",
     Recipe_WoodBirchwoodFloor = "Wood: Birchwood",
     Recipe_WoodChestnutNorthFloor = "Wood: Chestnut (North)",
     Recipe_WoodChestnutWestFloor = "Wood: Chestnut (West)",

@@ -98,15 +98,29 @@ MAGAZINE RECIPES
             Recipe_SpecialMotelTile
             Recipe_SpecialPieStoreFloor
             Recipe_SpecialBowlingFloor
+    Urban Magazine
+        Woodworking 6
+            Recipe_UrbanSidewalk1
+            Recipe_UrbanSidewalk2
+            Recipe_UrbanSidewalk3
+            Recipe_UrbanSidewalk4
+            Recipe_UrbanRoad1
+            Recipe_UrbanRoad2
+            Recipe_UrbanRoad3
+            Recipe_UrbanRoad4
+            Recipe_UrbanRoad5
+            Recipe_UrbanRoad6
+            Recipe_UrbanRoad7
+            Recipe_UrbanRoad8
     Franchise Magazine
         Woodworking 8
-        Recipe_SpecialGreenesCarpet
-        Recipe_SpecialGreenesCarpet2
-        Recipe_SpecialGreenesFloor
-        Recipe_SpecialPileOCrepeFloor
-        Recipe_SpecialPizzaWhirledFloor
-        Recipe_SpecialSpiffoFloor
-        Recipe_SpecialFossoilBlueFloor
-        Recipe_SpecialFossoilWhiteFloor
-        Recipe_SpecialZippeeFloor1
-        Recipe_SpecialZippeeFloor2
+            Recipe_SpecialGreenesCarpet
+            Recipe_SpecialGreenesCarpet2
+            Recipe_SpecialGreenesFloor
+            Recipe_SpecialPileOCrepeFloor
+            Recipe_SpecialPizzaWhirledFloor
+            Recipe_SpecialSpiffoFloor
+            Recipe_SpecialFossoilBlueFloor
+            Recipe_SpecialFossoilWhiteFloor
+            Recipe_SpecialZippeeFloor1
+            Recipe_SpecialZippeeFloor2

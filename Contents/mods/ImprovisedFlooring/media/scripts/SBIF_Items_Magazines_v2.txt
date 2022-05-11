@@ -57,4 +57,17 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Industrial,
     }
 
+    /* Urban Magazine */
+    item IFMagazineUrban {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Urban Walkways and Roads,
+        Icon = IFMagazine_Urban,
+        TeachedRecipes = UrbanSidewalk1;UrbanSidewalk2;UrbanSidewalk3;UrbanSidewalk4;UrbanRoad1;UrbanRoad2;UrbanRoad3;UrbanRoad4;UrbanRoad5;UrbanRoad6;UrbanRoad7;UrbanRoad8,
+        ReplaceOnUse = IFMagazineUrban,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Urban,
+    }
+
 }
