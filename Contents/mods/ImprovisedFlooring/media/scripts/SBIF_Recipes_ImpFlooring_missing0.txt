@@ -20,7 +20,9 @@ module ImprovisedFlooring
 
     /* Canvas Flooring: Added to Carpets */
     recipe CanvasBeige {   
+        keep Needle,
         keep Scissors,
+        Thread,
         RippedSheets=6,
         PaintLightBrown,
 	    Result:Moveables.improvisedflooring_missing_0_11,
@@ -32,7 +34,9 @@ module ImprovisedFlooring
         Sound:ClothesRipping,
     }
     recipe CanvasBlue {   
+        keep Needle,
         keep Scissors,
+        Thread,
         RippedSheets=6,
         PaintBlue,
 	    Result:Moveables.improvisedflooring_missing_0_12,
@@ -44,7 +48,9 @@ module ImprovisedFlooring
         Sound:ClothesRipping,
     }
     recipe CanvasGreen {   
+        keep Needle,
         keep Scissors,
+        Thread,
         RippedSheets=6,
         PaintGreen,
 	    Result:Moveables.improvisedflooring_missing_0_9,
@@ -56,9 +62,11 @@ module ImprovisedFlooring
         Sound:ClothesRipping,
     }
     recipe CanvasGrey {   
+        keep Needle,
         keep Scissors,
+        Thread,
         RippedSheets=6,
-        PaintGray,
+        PaintGrey,
 	    Result:Moveables.improvisedflooring_missing_0_10,
 	    Time:30.0,
 	    NeedToBeLearn:False,
