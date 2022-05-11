@@ -8,7 +8,7 @@ module ImprovisedFlooring
     recipe GardenPaverColorful {   
         keep PaintBrush,
         Stone=1,
-        BucketPlasterFull=1,
+        BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_1,
 	    Time:30.0,
 	    NeedToBeLearn:True,
@@ -21,7 +21,7 @@ module ImprovisedFlooring
     recipe GardenPaverGrey {   
         keep PaintBrush,
         Stone=1,
-        BucketPlasterFull=1,
+        BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_5,
 	    Time:30.0,
 	    NeedToBeLearn:True,
@@ -34,7 +34,7 @@ module ImprovisedFlooring
     recipe GardenPaverRed {   
         keep PaintBrush,
         Stone=1,
-        BucketPlasterFull=1,
+        BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_6,
 	    Time:30.0,
 	    NeedToBeLearn:True,
