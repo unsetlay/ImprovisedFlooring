@@ -2,6 +2,7 @@ ItemName_EN = {
     /* Version 2.0 Magazines */
     ItemName_ImprovisedFlooring.IFMagazineTiles = "Dave Depot: Tile Catalog",
     ItemName_ImprovisedFlooring.IFMagazineFranchise = "Franchise Flooring Specifications",
+    ItemName_ImprovisedFlooring.IFMagazineIndustrial = "Industrial Flooring",
 
     /* (Obsolete) Magazines */
     ItemName_ImprovisedFlooring.IFMagazineTiles1 = "(Obsolete) Dave Depot: Tile catalog (Vol 1)",

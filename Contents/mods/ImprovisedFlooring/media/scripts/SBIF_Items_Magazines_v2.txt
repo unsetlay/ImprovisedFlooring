@@ -31,4 +31,17 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Franchise,
     }
 
+    /* Industrial Magazine */
+    item IFMagazineIndustrial {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Industrial flooring and design,
+        Icon = IFMagazine_Industrial,
+        TeachedRecipes = SpecialMallTileGrey;SpecialMallTileN;SpecialMallTileW;SpecialMallTileWhite;SpecialBarFloor;SpecialDinerFloor;SpecialDinerFloorGreen;SpecialMotelTile;SpecialPieStoreFloor;SpecialBowlingFloor,
+        ReplaceOnUse = IFMagazineIndustrial,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Industrial,
+    }
+
 }
