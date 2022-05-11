@@ -5,73 +5,73 @@ module ImprovisedFlooring {
 
     model Magazine_Carpet1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineCarpet1,
+        texture = obsolete/worlditems/World_SBIFMagazineCarpet1,
         scale = 0.4,
     }
 
     model Magazine_Special1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial1,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial1,
         scale = 0.4,
     }
 
     model Magazine_Special2 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial2,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial2,
         scale = 0.4,
     }
 
     model Magazine_Special3 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial3,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial3,
         scale = 0.4,
     }
 
     model Magazine_Special4 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial4,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial4,
         scale = 0.4,
     }
 
     model Magazine_Special5 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial5,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial5,
         scale = 0.4,
     }
 
     model Magazine_Special6 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial6,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial6,
         scale = 0.4,
     }
 
     model Magazine_Special7 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineSpecial7,
+        texture = obsolete/worlditems/World_SBIFMagazineSpecial7,
         scale = 0.4,
     }
 
     model Magazine_Tiles1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineTiles1,
+        texture = obsolete/worlditems/World_SBIFMagazineTiles1,
         scale = 0.4,
     }
 
     model Magazine_Tiles2 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineTiles2,
+        texture = obsolete/worlditems/World_SBIFMagazineTiles2,
         scale = 0.4,
     }
 
     model Magazine_Tiles3 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineTiles3,
+        texture = obsolete/worlditems/World_SBIFMagazineTiles3,
         scale = 0.4,
     }
 
     model Magazine_Wood1 {
         mesh = WorldItems/Magazine,
-        texture = other/World_SBIFMagazineWood1,
+        texture = obsolete/worlditems/World_SBIFMagazineWood1,
         scale = 0.4,
     }
 

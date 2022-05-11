@@ -1,15 +1,15 @@
 ItemName_EN = {
-    /* Tile Magazines */
-    ItemName_ImprovisedFlooring.IFMagazineTiles1 = "Dave Depot: Tile catalog (Vol 1)",
-    ItemName_ImprovisedFlooring.IFMagazineTiles2 = "Dave Depot: Tile catalog (Vol 2)",
-    ItemName_ImprovisedFlooring.IFMagazineTiles3 = "Dave Depot: Tile catalog (Vol 3)",
-    ItemName_ImprovisedFlooring.IFMagazineWood1 = "OBSOLETE: Clowes: 1993 wood flooring",
-    ItemName_ImprovisedFlooring.IFMagazineCarpet1 = "OBSOLETE: Smears: Home carpets",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial1 = "Industrial flooring and design",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "Spiffo franchisee specifications",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "Pizza Whirled franchisee specifications",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial4 = "Fossoil franchisee specifications",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial5 = "Pile o'Crepe franchisee specifications",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial6 = "Greene's franchisee specifications",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial7 = "Zippee franchisee specifications",
+    /* (Obsolete) Magazines */
+    ItemName_ImprovisedFlooring.IFMagazineTiles1 = "(Obsolete) Dave Depot: Tile catalog (Vol 1)",
+    ItemName_ImprovisedFlooring.IFMagazineTiles2 = "(Obsolete) Dave Depot: Tile catalog (Vol 2)",
+    ItemName_ImprovisedFlooring.IFMagazineTiles3 = "(Obsolete) Dave Depot: Tile catalog (Vol 3)",
+    ItemName_ImprovisedFlooring.IFMagazineWood1 = "(Obsolete): Clowes: 1993 wood flooring",
+    ItemName_ImprovisedFlooring.IFMagazineCarpet1 = "(Obsolete): Smears: Home carpets",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial1 = "(Obsolete) Industrial flooring and design",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "(Obsolete) Spiffo franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "(Obsolete) Pizza Whirled franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial4 = "(Obsolete) Fossoil franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial5 = "(Obsolete) Pile o'Crepe franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial6 = "(Obsolete) Greene's franchisee specifications",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial7 = "(Obsolete) Zippee franchisee specifications",
 }
