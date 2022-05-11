@@ -31,6 +31,19 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Franchise,
     }
 
+    /* Garden Magazine */
+    item IFMagazineGarden {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Home and Garden,
+        Icon = IFMagazine_Garden,
+        TeachedRecipes = GardenPaverColorful;GardenPaverGrey;GardenPaverRed;GardenFakeGrass,
+        ReplaceOnUse = IFMagazineGarden,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Garden,
+    }
+
     /* Industrial Magazine */
     item IFMagazineIndustrial {
         weight = 0.1,
