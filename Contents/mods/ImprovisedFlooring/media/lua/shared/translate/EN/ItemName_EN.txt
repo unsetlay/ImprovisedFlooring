@@ -6,7 +6,7 @@ ItemName_EN = {
     ItemName_ImprovisedFlooring.IFMagazineUrban = "Urban Walkways and Roads",
     ItemName_ImprovisedFlooring.IFMagazineEasterEgg = "A Trip Down Memory Lane",
 
-    /* (Obsolete) Magazines */
+    /* (Obsolete) Magazines : To Be Removed at a later date */
     ItemName_ImprovisedFlooring.IFMagazineTiles1 = "(Obsolete) Dave Depot: Tile catalog (Vol 1)",
     ItemName_ImprovisedFlooring.IFMagazineTiles2 = "(Obsolete) Dave Depot: Tile catalog (Vol 2)",
     ItemName_ImprovisedFlooring.IFMagazineTiles3 = "(Obsolete) Dave Depot: Tile catalog (Vol 3)",

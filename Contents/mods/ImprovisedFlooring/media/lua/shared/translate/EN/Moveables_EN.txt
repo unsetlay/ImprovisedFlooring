@@ -1,4 +1,5 @@
-Moveables_EN = {	
+Moveables_EN = {
+    /* Left side Name comes from Tile Definitions */
     IFSidewalk4 = "Sidewalk (Type 4)",
     IFPaver1 = "Colorful Pavers",
     IFRedTiles = "Red Tiles",
