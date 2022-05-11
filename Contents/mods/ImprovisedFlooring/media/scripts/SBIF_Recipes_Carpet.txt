@@ -214,4 +214,62 @@ module ImprovisedFlooring
         AnimNode:Craft,
         Sound:ClothesRipping,
     }
+
+    /* Canvas Flooring: Added from Missing Texturepacks */
+    recipe CanvasBeige {   
+        keep Needle,
+        keep Scissors,
+        Thread,
+        RippedSheets=6,
+        PaintLightBrown,
+	    Result:Moveables.improvisedflooring_missing_0_11,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:Tailoring=3,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
+    recipe CanvasBlue {   
+        keep Needle,
+        keep Scissors,
+        Thread,
+        RippedSheets=6,
+        PaintBlue,
+	    Result:Moveables.improvisedflooring_missing_0_12,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:Tailoring=3,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
+    recipe CanvasGreen {   
+        keep Needle,
+        keep Scissors,
+        Thread,
+        RippedSheets=6,
+        PaintGreen,
+	    Result:Moveables.improvisedflooring_missing_0_9,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:Tailoring=3,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
+    recipe CanvasGrey {   
+        keep Needle,
+        keep Scissors,
+        Thread,
+        RippedSheets=6,
+        PaintGrey,
+	    Result:Moveables.improvisedflooring_missing_0_10,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:Tailoring=3,
+        Category:Flooring,
+        AnimNode:Craft,
+        Sound:ClothesRipping,
+    }
 }
