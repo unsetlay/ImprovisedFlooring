@@ -4,22 +4,44 @@
 function AddRecipesToExistingPlayers(id, player)
     local profession = player:getDescriptor():getProfession();
 
-    -- Adjust Carpenters with Wood Flooring by default
-    if profession == "carpenter" then
-        player:learnRecipe("WoodAcaciaFloor");
-        player:learnRecipe("WoodBirchwoodFloor");
-        player:learnRecipe("WoodBirchwoodFloorTiles");
-        player:learnRecipe("WoodChestnutNorthFloor");
-        player:learnRecipe("WoodChestnutWestFloor");
-        player:learnRecipe("WoodCinnamonFloor");
-        player:learnRecipe("WoodCinnamonNorthFloor");
-        player:learnRecipe("WoodCinnamonWestFloor");
-        player:learnRecipe("WoodFinewoodFloor");
-        player:learnRecipe("WoodHardwoodFloor");
-        player:learnRecipe("WoodHardwoodFloorTiles");
-        player:learnRecipe("WoodOakwoodFloor");
-        player:learnRecipe("WoodPinewoodFloorTiles");
-    end   
+    -- Construction Worker should know Urban stuff
+    if profession == "constructionworker" then
+        player:learnRecipe("UrbanSidewalk1");
+        player:learnRecipe("UrbanSidewalk1");
+        player:learnRecipe("UrbanSidewalk2");
+        player:learnRecipe("UrbanSidewalk3");
+        player:learnRecipe("UrbanSidewalk4");
+        player:learnRecipe("UrbanRoad1");
+        player:learnRecipe("UrbanRoad2");
+        player:learnRecipe("UrbanRoad3");
+        player:learnRecipe("UrbanRoad4");
+        player:learnRecipe("UrbanRoad5");
+        player:learnRecipe("UrbanRoad6");
+        player:learnRecipe("UrbanRoad7");
+        player:learnRecipe("UrbanRoad8");
+    end
+
+    -- Farmer knows about Gardening Recipes
+    if profession == "farmer" then
+        player:learnRecipe("GardenPaverColorful");
+        player:learnRecipe("GardenPaverGrey");
+        player:learnRecipe("GardenPaverRed");
+        player:learnRecipe("GardenFakeGrass");
+    end
+
+    -- Repair Man should know Generic Industrial Recipes
+    if profession == "repairman" then
+        player:learnRecipe("SpecialBarFloor");
+        player:learnRecipe("SpecialDinerFloor");
+        player:learnRecipe("SpecialDinerFloorGreen");
+        player:learnRecipe("SpecialMallTileGrey");
+        player:learnRecipe("SpecialMallTileN");
+        player:learnRecipe("SpecialMallTileW");
+        player:learnRecipe("SpecialMallTileWhite");
+        player:learnRecipe("SpecialMotelTile");
+        player:learnRecipe("SpecialPieStoreFloor");
+        player:learnRecipe("SpecialBowlingFloor");
+    end
 
 end
 
