@@ -18,4 +18,17 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Tiles,
     }
 
+    /* Franchise Magazine */
+    item IFMagazineFranchise {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Franchise Flooring Specifications,
+        Icon = IFMagazine_Franchise,
+        TeachedRecipes = SpecialFossoilBlueFloor;SpecialFossoilWhiteFloor;SpecialGreenesCarpet;SpecialGreenesCarpet2;SpecialGreenesFloor;SpecialPileOCrepeFloor;SpecialPizzaWhirledFloor;SpecialSpiffoFloor;SpecialZippeeFloor1;SpecialZippeeFloor2,
+        ReplaceOnUse = IFMagazineFranchise,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Franchise,
+    }
+
 }
