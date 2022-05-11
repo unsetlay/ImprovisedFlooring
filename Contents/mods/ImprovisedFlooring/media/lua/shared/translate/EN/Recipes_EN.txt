@@ -1,25 +1,32 @@
 Recipe_EN = {
     
     /************************************************************
-    * WOOD FLOORING: Carpentry 3 ********************************
+    * WOOD FLOORING *********************************************
     *************************************************************/
-    Recipe_WoodAcaciaFloor = "Wood: Acacia",
+    /* Woodworking 1 */
     Recipe_WoodBirchwoodFloor = "Wood: Birchwood",
-    Recipe_WoodBirchwoodFloorTiles = "Wood: Birchwood Tiles",
     Recipe_WoodChestnutNorthFloor = "Wood: Chestnut (North)",
     Recipe_WoodChestnutWestFloor = "Wood: Chestnut (West)",
-    Recipe_WoodCinnamonFloor = "Wood: Cinnamon",
     Recipe_WoodCinnamonNorthFloor = "Wood: Cinnamon (North)",
     Recipe_WoodCinnamonWestFloor = "Wood: Cinnamon (West)",
+    Recipe_WoodOakwoodFloor = "Wood: Oakwood",
+
+    /* Woodworking 2 */
     Recipe_WoodFinewoodFloor = "Wood: Finewood",
     Recipe_WoodHardwoodFloor = "Wood: Hardwood",
-    Recipe_WoodHardwoodFloorTiles = "Wood: Hardwood Tiles",
-    Recipe_WoodOakwoodFloor = "Wood: Oakwood",
     Recipe_WoodPinewoodFloorTiles = "Wood: Pinewood Tiles",
 
+    /* Woodworking 3 */
+    Recipe_WoodAcaciaFloor = "Wood: Acacia",
+    Recipe_WoodBirchwoodFloorTiles = "Wood: Birchwood Tiles",
+    Recipe_WoodCinnamonFloor = "Wood: Cinnamon",
+    Recipe_WoodHardwoodFloorTiles = "Wood: Hardwood Tiles",
+
+
     /************************************************************
-    * CARPETS: Carpentry 3 + Tailoring 1 ************************
+    * CARPETS AND CANVAS FLOORING *******************************
     *************************************************************/
+    /* Tailoring 1 */
     Recipe_CarpetBeige = "Carpet: Beige",
     Recipe_CarpetBlack = "Carpet: Black",
     Recipe_CarpetBordeaux = "Carpet: Bordeaux",
@@ -35,14 +42,17 @@ Recipe_EN = {
     Recipe_CarpetViolet = "Carpet: Violet",
     Recipe_CarpetWhite = "Carpet: White",
     Recipe_CarpetYellow = "Carpet: Yellow",
+
+    /* Tailoring 3 */
     Recipe_CanvasBeige = "Canvas: Beige",
     Recipe_CanvasBlue = "Canvas: Blue",
     Recipe_CanvasGreen = "Canvas: Green",
     Recipe_CanvasGrey = "Canvas: Grey",
 
     /************************************************************
-    * TILES: Carpentry 5 ****************************************
+    * TILE FLOORING *********************************************
     *************************************************************/
+    /* Woodworking 5 */
     Recipe_TilesBeige = "Tile: Beige",
     Recipe_TilesBeigeCheckered = "Tile: Beige Checkered",
     Recipe_TilesBeigeSmooth = "Tile: Beige Smooth",
@@ -73,8 +83,9 @@ Recipe_EN = {
     Recipe_TilesYellowDiagonal = "Tile: Yellow Diagonal",
 
     /************************************************************
-    * SPECIAL: Carpentry 8 **************************************
+    * INDUSTRIAL FLOORING ***************************************
     *************************************************************/
+    /* Woodworking 8 */
     Recipe_SpecialBarFloor = "Industrial: Bar Floor",
     Recipe_SpecialDinerFloor = "Industrial: Diner Floor",
     Recipe_SpecialDinerFloorGreen = "Industrial: Diner Floor Green",
@@ -87,8 +98,9 @@ Recipe_EN = {
     Recipe_SpecialBowlingFloor = "Industrial: Bowling Lane Floor",
 
     /************************************************************
-    * BRANDED: Carpentry 8 **************************************
+    * BRANDED FLOORING ******************************************
     *************************************************************/
+    /* Woodworking 8 */
     Recipe_SpecialGreenesCarpet = "Branded: Greene's Carpet (North)",
     Recipe_SpecialGreenesCarpet2 = "Branded: Greene's Carpet (West)",
     Recipe_SpecialGreenesFloor = "Branded: Greene's Floor",
