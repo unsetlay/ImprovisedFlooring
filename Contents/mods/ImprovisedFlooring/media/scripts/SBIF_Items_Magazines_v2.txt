@@ -1,0 +1,21 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    /* Tile Magazine */
+    item IFMagazineTiles {
+        weight = 0.1,
+        Type = Literature,
+        DisplayName = Dave Depot: Tile Catalog,
+        Icon = IFMagazine_Tiles,
+        TeachedRecipes = TilesBeigeCheckered;TilesBeige;TilesBeigeSmooth;TilesBlack;TilesBlackDiagonal;TilesBlueCheckered;TilesBrown;TilesBrownLarge;TilesDarkGrey;TilesDarkGreySmooth;TilesDarkGreySquares;TilesGreenDiagonal;TilesGreen;TilesGrey;TilesGreyCheckered;TilesGreyDiagonal;TilesGreyDiagonal2;TilesGreySmooth;TilesGreySquares;TilesPurple;TilesWhiteCheckered;TilesWhiteDiagonal;TilesWhiteSmooth;TilesWhite;TilesYellowCheckered;TilesYellowDiagonal;TilesYellow;TilesRed,
+        ReplaceOnUse = IFMagazineTiles,
+        DisplayCategory = SkillBook,
+        StaticModel = Magazine,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Tiles,
+    }
+
+}

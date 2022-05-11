@@ -1,0 +1,12 @@
+module ImprovisedFlooring {
+    imports {
+        Base
+    }
+
+    model Magazine_Tiles {
+        mesh = WorldItems/Magazine,
+        texture = worlditems/IFMagazine_Tiles,
+        scale = 0.4,
+    }
+
+}
