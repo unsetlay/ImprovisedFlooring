@@ -50,19 +50,6 @@ function AddRecipesToExistingPlayers(id, player)
         end
     end
 
-    -- If you are unemployes AND illiterate, free carpet!
-    -- if profession == "unemployed" then
-    --     player:learnRecipe("EasterEggNostalgia")
-    -- end
-    -- if player:getTraits():isIlliterate() then
-    --     player:learnRecipe("EasterEggNostalgia")
-    -- end
-
-    --     if getSpecificPlayer(player):getTraits():isIlliterate() then
-    --         player:learnRecipe("EasterEggNostalgia");
-    --     end
-    -- end
-
 end
 
 -- Character loads into the world
