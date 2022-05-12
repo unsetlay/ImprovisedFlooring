@@ -1,0 +1,47 @@
+12 MAY 2022
+    The magazine system has been reorganized and the version number increased to v1.1
+    All previous 1.0 magazines are now considered obsolete. There is an upgrade path 
+    available for each magazine by right-clicking it.
+
+    The list below is a series of files for the obsolete items that will be removed 
+    at a later date. 
+
+    media/lua/translate/{language}/ItemName_{language}.txt
+        ItemName_ImprovisedFlooring.IFMagazineTiles1
+        ItemName_ImprovisedFlooring.IFMagazineTiles2
+        ItemName_ImprovisedFlooring.IFMagazineTiles3
+        ItemName_ImprovisedFlooring.IFMagazineWood1
+        ItemName_ImprovisedFlooring.IFMagazineCarpet1
+        ItemName_ImprovisedFlooring.IFMagazineSpecial1
+        ItemName_ImprovisedFlooring.IFMagazineSpecial2
+        ItemName_ImprovisedFlooring.IFMagazineSpecial3
+        ItemName_ImprovisedFlooring.IFMagazineSpecial4
+        ItemName_ImprovisedFlooring.IFMagazineSpecial5
+        ItemName_ImprovisedFlooring.IFMagazineSpecial6
+        ItemName_ImprovisedFlooring.IFMagazineSpecial7
+
+    media/lua/translate/{language}/Recipes_EN.txt
+        Recipe_SBIFConvertUseless
+        Recipe_SBIFConvertFranchise
+        Recipe_SBIFConvertIndustrial
+        Recipe_SBIFConvertTiles
+
+    media/scripts/SBIF_OBSOLETE_Items_Magazines.txt
+    media/scripts/SBIF_OBSOLETE_UpgradeMagazines.txt
+    media/scripts/SBIF_OBSOLETE_world_models.txt
+    media/textures/obsolete
+
+    media/textures/ 
+        ITEM_OBSOLETE_SBIFMagazineCarpet1.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial1.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial2.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial3.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial4.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial5.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial6.png
+        ITEM_OBSOLETE_SBIFMagazineSpecial7.png
+        ITEM_OBSOLETE_SBIFMagazineTiles1.png
+        ITEM_OBSOLETE_SBIFMagazineTiles2.png
+        ITEM_OBSOLETE_SBIFMagazineTiles3.png
+        ITEM_OBSOLETE_SBIFMagazineWood1.png
+}
