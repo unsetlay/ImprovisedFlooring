@@ -214,7 +214,7 @@ table.insert(ProceduralDistributions.list["CrateRandomJunk"].items, 1);
 table.insert(ProceduralDistributions.list["CrateTools"].items, "ImprovisedFlooring.IFMagazineUrban");
 table.insert(ProceduralDistributions.list["CrateTools"].items, 1);
 table.insert(ProceduralDistributions.list["FireDeptLockers"].items, "ImprovisedFlooring.IFMagazineUrban");
-table.insert(ProceduralDistributions.list["FireDeptLockers"].items, 0.5);
+table.insert(ProceduralDistributions.list["FireDeptLockers"].items, 1);
 table.insert(ProceduralDistributions.list["LibraryCounter"].items, "ImprovisedFlooring.IFMagazineUrban");
 table.insert(ProceduralDistributions.list["LibraryCounter"].items, 2);
 table.insert(ProceduralDistributions.list["MagazineRackMixed"].items, "ImprovisedFlooring.IFMagazineUrban");
