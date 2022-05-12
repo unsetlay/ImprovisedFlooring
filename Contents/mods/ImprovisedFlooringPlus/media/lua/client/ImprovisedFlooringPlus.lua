@@ -20,3 +20,5 @@ TweakItem("Base.PaintYellow", "UseDelta", 0.1);
 -- BASE GAME: Plaster Lasts 10 uses per bucket
 TweakItem("Base.BucketPlasterFull", "UseDelta", 0.1);
 
+-- BASE GAME: Concrete Lasts 10 uses per bucket
+TweakItem("Base.BucketConcreteFull", "UseDelta", 0.1);
