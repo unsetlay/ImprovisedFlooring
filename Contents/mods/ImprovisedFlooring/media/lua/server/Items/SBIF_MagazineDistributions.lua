@@ -1,4 +1,6 @@
+require 'Items/SuburbsDistributions'
 require 'Items/ProceduralDistributions'
+require 'Items/VehicleDistributions'
 
 -- DEBUG MODE
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "ImprovisedFlooring.IFMagazineTiles");
@@ -13,6 +15,18 @@ require 'Items/ProceduralDistributions'
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 1000);
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
 -- table.insert(ProceduralDistributions.list["BookstoreBooks"].items, 1000);
+
+-- All Magazines may appear in a car's glove box very rarely
+table.insert(VehicleDistributions["GloveBox"].items, "ImprovisedFlooring.IFMagazineTiles");
+table.insert(VehicleDistributions["GloveBox"].items, 0.01);
+table.insert(VehicleDistributions["GloveBox"].items, "ImprovisedFlooring.IFMagazineFranchise");
+table.insert(VehicleDistributions["GloveBox"].items, 0.01);
+table.insert(VehicleDistributions["GloveBox"].items, "ImprovisedFlooring.IFMagazineGarden");
+table.insert(VehicleDistributions["GloveBox"].items, 0.01);
+table.insert(VehicleDistributions["GloveBox"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(VehicleDistributions["GloveBox"].items, 0.01);
+table.insert(VehicleDistributions["GloveBox"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
+table.insert(VehicleDistributions["GloveBox"].items, 0.001);
 
 -- IFMagazineTiles (Dave Depot: Tile Catalog)
 table.insert(ProceduralDistributions.list["BinGeneric"].items, "ImprovisedFlooring.IFMagazineTiles");
@@ -57,6 +71,12 @@ table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "ImprovisedFl
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 2);
 table.insert(ProceduralDistributions.list["ToolStoreCarpentry"].items, "ImprovisedFlooring.IFMagazineTiles");
 table.insert(ProceduralDistributions.list["ToolStoreCarpentry"].items, 1);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineTiles");
+table.insert(SuburbsDistributions["all"]["postbox"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["sidetable"].items, "ImprovisedFlooring.IFMagazineTiles");
+table.insert(SuburbsDistributions["all"]["sidetable"].items, 0.01);
+table.insert(SuburbsDistributions["factory"]["counter"].items, "ImprovisedFlooring.IFMagazineTiles");
+table.insert(SuburbsDistributions["factory"]["counter"].items, 0.01);
 
 -- IFMagazineFranchise (Franchise Flooring Specifications)
 table.insert(ProceduralDistributions.list["BinGeneric"].items, "ImprovisedFlooring.IFMagazineFranchise");
@@ -99,6 +119,14 @@ table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "ImprovisedFl
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 2);
 table.insert(ProceduralDistributions.list["WardrobeManClassy"].items, "ImprovisedFlooring.IFMagazineFranchise");
 table.insert(ProceduralDistributions.list["WardrobeManClassy"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineFranchise");
+table.insert(SuburbsDistributions["all"]["postbox"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["sidetable"].items, "ImprovisedFlooring.IFMagazineFranchise");
+table.insert(SuburbsDistributions["all"]["sidetable"].items, 0.01);
+table.insert(SuburbsDistributions["factory"]["counter"].items, "ImprovisedFlooring.IFMagazineFranchise");
+table.insert(SuburbsDistributions["factory"]["counter"].items, 0.01);
+table.insert(SuburbsDistributions["Briefcase"].items, "ImprovisedFlooring.IFMagazineFranchise");
+table.insert(SuburbsDistributions["Briefcase"].items, 0.01);
 
 -- IFMagazineGarden (Home and Garden)
 table.insert(ProceduralDistributions.list["BinGeneric"].items, "ImprovisedFlooring.IFMagazineGarden");
@@ -147,6 +175,12 @@ table.insert(ProceduralDistributions.list["ToolStoreFarming"].items, "Improvised
 table.insert(ProceduralDistributions.list["ToolStoreFarming"].items, 1);
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, "ImprovisedFlooring.IFMagazineGarden");
 table.insert(ProceduralDistributions.list["WardrobeWomanClassy"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineGarden");
+table.insert(SuburbsDistributions["all"]["postbox"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["sidetable"].items, "ImprovisedFlooring.IFMagazineGarden");
+table.insert(SuburbsDistributions["all"]["sidetable"].items, 0.1);
+table.insert(SuburbsDistributions["SeedBag"].items, "ImprovisedFlooring.IFMagazineGarden");
+table.insert(SuburbsDistributions["SeedBag"].items, 1);
 
 -- IFMagazineIndustrial (Industrial flooring and design)
 table.insert(ProceduralDistributions.list["BinGeneric"].items, "ImprovisedFlooring.IFMagazineIndustrial");
@@ -195,6 +229,18 @@ table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "ImprovisedFl
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 2);
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, "ImprovisedFlooring.IFMagazineIndustrial");
 table.insert(ProceduralDistributions.list["WardrobeRedneck"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(SuburbsDistributions["all"]["postbox"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["sidetable"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(SuburbsDistributions["all"]["sidetable"].items, 0.01);
+table.insert(SuburbsDistributions["bakerykitchen"]["crate"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(SuburbsDistributions["bakerykitchen"]["crate"].items, 0.1);
+table.insert(SuburbsDistributions["barstorage"]["shelves"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(SuburbsDistributions["barstorage"]["shelves"].items, 0.1);
+table.insert(SuburbsDistributions["factory"]["counter"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(SuburbsDistributions["factory"]["counter"].items, 0.01);
+table.insert(SuburbsDistributions["Bag_JanitorToolbox"].items, "ImprovisedFlooring.IFMagazineIndustrial");
+table.insert(SuburbsDistributions["Bag_JanitorToolbox"].items, 0.01);
 
 -- IFMagazineUrban (Urban Walkways and Roads)
 table.insert(ProceduralDistributions.list["BinGeneric"].items, "ImprovisedFlooring.IFMagazineUrban");
@@ -231,6 +277,12 @@ table.insert(ProceduralDistributions.list["ShelfGeneric"].items, "ImprovisedFloo
 table.insert(ProceduralDistributions.list["ShelfGeneric"].items, 0.1);
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, "ImprovisedFlooring.IFMagazineUrban");
 table.insert(ProceduralDistributions.list["ToolStoreBooks"].items, 2);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineUrban");
+table.insert(SuburbsDistributions["all"]["postbox"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["sidetable"].items, "ImprovisedFlooring.IFMagazineUrban");
+table.insert(SuburbsDistributions["all"]["sidetable"].items, 0.01);
+table.insert(SuburbsDistributions["construction"]["counter"].items, "ImprovisedFlooring.IFMagazineUrban");
+table.insert(SuburbsDistributions["construction"]["counter"].items, 1);
 
 -- IFMagazineEasterEgg (Nostalgic Carpet)
 table.insert(ProceduralDistributions.list["DaycareCounter"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
@@ -239,3 +291,7 @@ table.insert(ProceduralDistributions.list["DaycareShelves"].items, "ImprovisedFl
 table.insert(ProceduralDistributions.list["DaycareShelves"].items, 0.01);
 table.insert(ProceduralDistributions.list["GigamartToys"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
 table.insert(ProceduralDistributions.list["GigamartToys"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
+table.insert(SuburbsDistributions["all"]["postbox"].items, 0.001);
+table.insert(SuburbsDistributions["motelroomoccupied"]["sidetable"].items, "ImprovisedFlooring.IFMagazineEasteEgg");
+table.insert(SuburbsDistributions["motelroomoccupied"]["sidetable"].items, 0.001);
