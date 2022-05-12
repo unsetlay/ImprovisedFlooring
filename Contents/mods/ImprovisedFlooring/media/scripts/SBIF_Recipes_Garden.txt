@@ -20,7 +20,7 @@ module ImprovisedFlooring
     }
 
     recipe GardenPaverColorful {   
-        keep PaintBrush,
+        keep HandShovel,
         Stone=1,
         BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_1,
@@ -33,7 +33,7 @@ module ImprovisedFlooring
     }
 
     recipe GardenPaverGrey {   
-        keep PaintBrush,
+        keep HandShovel,
         Stone=1,
         BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_5,
@@ -46,7 +46,7 @@ module ImprovisedFlooring
     }
 
     recipe GardenPaverRed {   
-        keep PaintBrush,
+        keep HandShovel,
         Stone=1,
         BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_6,
