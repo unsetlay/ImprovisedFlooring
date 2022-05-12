@@ -2,6 +2,7 @@ ItemName_EN = {
     /* Version 2.0 Magazines */
     ItemName_ImprovisedFlooring.IFMagazineTiles = "Dave Depot: Tile Catalog",
     ItemName_ImprovisedFlooring.IFMagazineFranchise = "Franchise Flooring Specifications",
+    ItemName_ImprovisedFlooring.IFMagazineGarden = "Home and Garden Designs",
     ItemName_ImprovisedFlooring.IFMagazineIndustrial = "Industrial Flooring",
     ItemName_ImprovisedFlooring.IFMagazineUrban = "Urban Walkways and Roads",
     ItemName_ImprovisedFlooring.IFMagazineEasterEgg = "A Trip Down Memory Lane",
