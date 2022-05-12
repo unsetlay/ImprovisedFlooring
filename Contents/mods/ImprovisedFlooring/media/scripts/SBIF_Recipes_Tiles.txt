@@ -245,6 +245,18 @@ module ImprovisedFlooring
         Category:Flooring,
     }
 
+    recipe TilesRed {
+        keep Paintbrush,
+        Plank,
+        BucketPlasterFull=1,
+        PaintRed,
+	    Result:Moveables.improvisedflooring_missing_0_2,
+	    Time:30.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=5,
+        Category:Flooring,
+    }
+
     recipe TilesWhiteCheckered {
         keep Paintbrush,
         Plank,
@@ -323,19 +335,6 @@ module ImprovisedFlooring
         BucketPlasterFull=1,
         PaintYellow,
 	    Result:Moveables.floors_interior_tilesandwood_01_6,
-	    Time:30.0,
-	    NeedToBeLearn:True,
-        SkillRequired:Woodwork=5,
-        Category:Flooring,
-    }
-
-    /* Red Tiles: Added to Tiles1 */
-    recipe TilesRed {
-        keep Paintbrush,
-        Plank,
-        BucketPlasterFull=1,
-        PaintRed,
-	    Result:Moveables.improvisedflooring_missing_0_2,
 	    Time:30.0,
 	    NeedToBeLearn:True,
         SkillRequired:Woodwork=5,

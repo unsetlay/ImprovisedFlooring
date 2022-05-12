@@ -5,62 +5,6 @@ module ImprovisedFlooring
         Base
     }
 
-    recipe UrbanSidewalk1 {
-        keep HandShovel/Shovel,
-        Plank=1,
-        BucketConcreteFull=1,
-	    Result:Moveables.improvisedflooring_missing_0_7,
-	    Time:60.0,
-	    NeedToBeLearn:True,
-        SkillRequired:Woodwork=6,
-        Category:Flooring,
-        Prop1:HandShovel,
-        AnimNode:Forage,
-        Sound:MakePlaster,
-    }
-
-    recipe UrbanSidewalk2 {
-        keep HandShovel/Shovel,
-        Plank=1,
-        BucketConcreteFull=1,
-	    Result:Moveables.improvisedflooring_missing_0_3,
-	    Time:60.0,
-	    NeedToBeLearn:True,
-        SkillRequired:Woodwork=6,
-        Category:Flooring,
-        Prop1:HandShovel,
-        AnimNode:Forage,
-        Sound:MakePlaster,
-    }
-
-    recipe UrbanSidewalk3 {
-        keep HandShovel/Shovel,
-        Plank=1,
-        BucketConcreteFull=1,
-	    Result:Moveables.improvisedflooring_missing_0_4,
-	    Time:60.0,
-	    NeedToBeLearn:True,
-        SkillRequired:Woodwork=6,
-        Category:Flooring,
-        Prop1:HandShovel,
-        AnimNode:Forage,
-        Sound:MakePlaster,
-    }
-
-    recipe UrbanSidewalk4 {
-        keep HandShovel/Shovel,
-        Plank=1,
-        BucketConcreteFull=1,
-	    Result:Moveables.improvisedflooring_missing_0_0,
-	    Time:60.0,
-	    NeedToBeLearn:True,
-        SkillRequired:Woodwork=6,
-        Category:Flooring,
-        Prop1:HandShovel,
-        AnimNode:Forage,
-        Sound:MakePlaster,
-    }
-
     recipe UrbanRoad1 {
         keep HandShovel/Shovel,
         Plank=1,
@@ -178,4 +122,61 @@ module ImprovisedFlooring
         AnimNode:Forage,
         Sound:MakePlaster,
     }
+
+    recipe UrbanSidewalk1 {
+        keep HandShovel/Shovel,
+        Plank=1,
+        BucketConcreteFull=1,
+	    Result:Moveables.improvisedflooring_missing_0_7,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=6,
+        Category:Flooring,
+        Prop1:HandShovel,
+        AnimNode:Forage,
+        Sound:MakePlaster,
+    }
+
+    recipe UrbanSidewalk2 {
+        keep HandShovel/Shovel,
+        Plank=1,
+        BucketConcreteFull=1,
+	    Result:Moveables.improvisedflooring_missing_0_3,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=6,
+        Category:Flooring,
+        Prop1:HandShovel,
+        AnimNode:Forage,
+        Sound:MakePlaster,
+    }
+
+    recipe UrbanSidewalk3 {
+        keep HandShovel/Shovel,
+        Plank=1,
+        BucketConcreteFull=1,
+	    Result:Moveables.improvisedflooring_missing_0_4,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=6,
+        Category:Flooring,
+        Prop1:HandShovel,
+        AnimNode:Forage,
+        Sound:MakePlaster,
+    }
+
+    recipe UrbanSidewalk4 {
+        keep HandShovel/Shovel,
+        Plank=1,
+        BucketConcreteFull=1,
+	    Result:Moveables.improvisedflooring_missing_0_0,
+	    Time:60.0,
+	    NeedToBeLearn:True,
+        SkillRequired:Woodwork=6,
+        Category:Flooring,
+        Prop1:HandShovel,
+        AnimNode:Forage,
+        Sound:MakePlaster,
+    }
+
 }

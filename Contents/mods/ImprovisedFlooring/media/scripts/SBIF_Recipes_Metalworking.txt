@@ -5,6 +5,53 @@ module ImprovisedFlooring
         Base
     }
 
+    recipe MetalGrate {
+        keep BlowTorch=2,
+        keep WeldingMask,
+        WeldingRods=1,
+        MetalPipe=3,
+	    Result:Moveables.improvisedflooring_missing_0_26,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:MetalWelding=3,
+        Category:Flooring,
+        AnimNode: BlowTorchFloor,
+        Prop1: Blowtorch,
+        Sound: BlowTorch,
+    }
+
+    recipe MetalGrateWest {
+        keep BlowTorch=2,
+        keep WeldingMask,
+        WeldingRods=1,
+        MetalPipe=2,
+        MetalBar,
+	    Result:Moveables.improvisedflooring_missing_0_24,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:MetalWelding=3,
+        Category:Flooring,
+        AnimNode: BlowTorchFloor,
+        Prop1: Blowtorch,
+        Sound: BlowTorch,
+    }
+
+    recipe MetalGrateNorth {
+        keep BlowTorch=2,
+        keep WeldingMask,
+        WeldingRods=1,
+        MetalPipe=2,
+        MetalBar,
+	    Result:Moveables.improvisedflooring_missing_0_25,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+        SkillRequired:MetalWelding=3,
+        Category:Flooring,
+        AnimNode: BlowTorchFloor,
+        Prop1: Blowtorch,
+        Sound: BlowTorch,
+    }
+
     recipe MetalPlateDarkWest {
         keep BlowTorch=2,
         keep WeldingMask,
@@ -93,53 +140,6 @@ module ImprovisedFlooring
 	    Time:30.0,
 	    NeedToBeLearn:False,
         SkillRequired:MetalWelding=2,
-        Category:Flooring,
-        AnimNode: BlowTorchFloor,
-        Prop1: Blowtorch,
-        Sound: BlowTorch,
-    }
-
-    recipe MetalGrateWest {
-        keep BlowTorch=2,
-        keep WeldingMask,
-        WeldingRods=1,
-        MetalPipe=2,
-        MetalBar,
-	    Result:Moveables.improvisedflooring_missing_0_24,
-	    Time:30.0,
-	    NeedToBeLearn:False,
-        SkillRequired:MetalWelding=3,
-        Category:Flooring,
-        AnimNode: BlowTorchFloor,
-        Prop1: Blowtorch,
-        Sound: BlowTorch,
-    }
-
-    recipe MetalGrateNorth {
-        keep BlowTorch=2,
-        keep WeldingMask,
-        WeldingRods=1,
-        MetalPipe=2,
-        MetalBar,
-	    Result:Moveables.improvisedflooring_missing_0_25,
-	    Time:30.0,
-	    NeedToBeLearn:False,
-        SkillRequired:MetalWelding=3,
-        Category:Flooring,
-        AnimNode: BlowTorchFloor,
-        Prop1: Blowtorch,
-        Sound: BlowTorch,
-    }
-
-    recipe MetalGrate {
-        keep BlowTorch=2,
-        keep WeldingMask,
-        WeldingRods=1,
-        MetalPipe=3,
-	    Result:Moveables.improvisedflooring_missing_0_26,
-	    Time:30.0,
-	    NeedToBeLearn:False,
-        SkillRequired:MetalWelding=3,
         Category:Flooring,
         AnimNode: BlowTorchFloor,
         Prop1: Blowtorch,

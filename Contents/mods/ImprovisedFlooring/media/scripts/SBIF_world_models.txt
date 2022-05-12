@@ -3,12 +3,6 @@ module ImprovisedFlooring {
         Base
     }
 
-    model Magazine_Tiles {
-        mesh = WorldItems/Magazine,
-        texture = worlditems/IFMagazine_Tiles,
-        scale = 0.4,
-    }
-
     model Magazine_Franchise {
         mesh = WorldItems/Magazine,
         texture = worlditems/IFMagazine_Franchise,
@@ -30,6 +24,12 @@ module ImprovisedFlooring {
     model Magazine_Nostalgia {
         mesh = WorldItems/Magazine,
         texture = worlditems/IFMagazine_Nostalgia,
+        scale = 0.4,
+    }
+
+    model Magazine_Tiles {
+        mesh = WorldItems/Magazine,
+        texture = worlditems/IFMagazine_Tiles,
         scale = 0.4,
     }
 

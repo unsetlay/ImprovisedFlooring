@@ -5,17 +5,17 @@ module ImprovisedFlooring
         Base
     }
 
-    /* Tile Magazine */
-    item IFMagazineTiles {
+    /* Nostalgia Magazine */
+    item IFMagazineEasterEgg {
         weight = 0.1,
         Type = Literature,
-        DisplayName = Dave Depot: Tile Catalog,
-        Icon = IFMagazine_Tiles,
-        TeachedRecipes = TilesBeigeCheckered;TilesBeige;TilesBeigeSmooth;TilesBlack;TilesBlackDiagonal;TilesBlueCheckered;TilesBrown;TilesBrownLarge;TilesDarkGrey;TilesDarkGreySmooth;TilesDarkGreySquares;TilesGreenDiagonal;TilesGreen;TilesGrey;TilesGreyCheckered;TilesGreyDiagonal;TilesGreyDiagonal2;TilesGreySmooth;TilesGreySquares;TilesPurple;TilesWhiteCheckered;TilesWhiteDiagonal;TilesWhiteSmooth;TilesWhite;TilesYellowCheckered;TilesYellowDiagonal;TilesYellow;TilesRed,
-        ReplaceOnUse = IFMagazineTiles,
+        DisplayName = A Trip Down Memory Lane,
+        Icon = IFMagazine_Nostalgia,
+        TeachedRecipes = EasterEggNostalgia,
+        ReplaceOnUse = IFMagazineNostalgia,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,
-        WorldStaticModel = ImprovisedFlooring.Magazine_Tiles,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Nostalgia,
     }
 
     /* Franchise Magazine */
@@ -57,17 +57,17 @@ module ImprovisedFlooring
         WorldStaticModel = ImprovisedFlooring.Magazine_Industrial,
     }
 
-    /* Nostalgia Magazine */
-    item IFMagazineEasterEgg {
+    /* Tile Magazine */
+    item IFMagazineTiles {
         weight = 0.1,
         Type = Literature,
-        DisplayName = A Trip Down Memory Lane,
-        Icon = IFMagazine_Nostalgia,
-        TeachedRecipes = EasterEggNostalgia,
-        ReplaceOnUse = IFMagazineNostalgia,
+        DisplayName = Dave Depot: Tile Catalog,
+        Icon = IFMagazine_Tiles,
+        TeachedRecipes = TilesBeigeCheckered;TilesBeige;TilesBeigeSmooth;TilesBlack;TilesBlackDiagonal;TilesBlueCheckered;TilesBrown;TilesBrownLarge;TilesDarkGrey;TilesDarkGreySmooth;TilesDarkGreySquares;TilesGreenDiagonal;TilesGreen;TilesGrey;TilesGreyCheckered;TilesGreyDiagonal;TilesGreyDiagonal2;TilesGreySmooth;TilesGreySquares;TilesPurple;TilesWhiteCheckered;TilesWhiteDiagonal;TilesWhiteSmooth;TilesWhite;TilesYellowCheckered;TilesYellowDiagonal;TilesYellow;TilesRed,
+        ReplaceOnUse = IFMagazineTiles,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,
-        WorldStaticModel = ImprovisedFlooring.Magazine_Nostalgia,
+        WorldStaticModel = ImprovisedFlooring.Magazine_Tiles,
     }
 
     /* Urban Magazine */
