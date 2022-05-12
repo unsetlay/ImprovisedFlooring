@@ -5,6 +5,13 @@ module ImprovisedFlooring
         Base
     }
 
+      /* *****************************************************************
+       * As of version 1.1 on 12 MAY 2022 These magazines no longer    *
+       * Spawn and are considered obsolete. They will be deleted later *
+       *                                                               *
+       * These recipes upgrade old magazines to the new system         *
+       *****************************************************************/
+
     recipe SBIFConvertUseless {   
         ImprovisedFlooring.IFMagazineCarpet1/ImprovisedFlooring.IFMagazineWood1,
 	    Result:Base.Magazine,

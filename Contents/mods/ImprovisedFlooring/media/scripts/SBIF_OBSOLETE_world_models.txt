@@ -3,6 +3,13 @@ module ImprovisedFlooring {
         Base
     }
 
+      /* *****************************************************************
+       * As of version 1.1 on 12 MAY 2022 These magazines no longer    *
+       * Spawn and are considered obsolete. They will be deleted later *
+       *                                                               *
+       * They remain in the mod for backwards compatibility            *
+       *****************************************************************/
+
     model Magazine_Carpet1 {
         mesh = WorldItems/Magazine,
         texture = obsolete/worlditems/World_SBIFMagazineCarpet1,

@@ -5,6 +5,13 @@ module ImprovisedFlooring
         Base
     }
 
+    /* *****************************************************************
+       * As of version 1.1 on 12 MAY 2022 These magazines no longer    *
+       * Spawn and are considered obsolete. They will be deleted later *
+       *                                                               *
+       * They remain in the mod for backwards compatibility            *
+       *****************************************************************/
+
     /* Carpet Recipes */
     item IFMagazineCarpet1 {
         weight = 0.1,
