@@ -32,4 +32,17 @@ Moveables_EN = {
     IFMetal8 = "Red Metal Plate (West)",
     IFMetal9 = "Red Metal Plate (North)",
     IFNostalgia = "Nostalgic Carpet",
+
+    /* Overwrite some default Tiles */
+    Blue_Fossoil_Floor = "Fossoil Blue Floor",
+    White_Fossoil_Floor = "Fossoil White Floor",
+    Greenes_Grocery_Carpet = "Greene's Carpet (North)",
+    Greenes_Grocery_Carpet_B = "Greene's Carpet (West)",
+    Blue_Zippee_Floor = "Zippee Blue Floor",
+    Orange_Zippee_Floor = "Zippee Orange Floor",
+    Grey_Mall_Tile = "Mall Tile (Grey)",
+    Mall_Tile_N = "Mall Tile (North)",
+    Mall_Tile_W = "Mall Tile (West)",
+    White_Mall_Tile = "Mall Tile (White)",
+
 }
