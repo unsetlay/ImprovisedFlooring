@@ -112,4 +112,10 @@ Recipe_EN = {
     /* Easter Egg */
     Recipe_EasterEggNostalgia = "Carpet: Nostalgia",
     Recipe_EasterEggNostalgiaIlliterate = "AAAH! CaRPeT gO VrOOm vRoOM!",
+
+    /* Conversions from 1.0 to 1.1 */
+    Recipe_SBIFConvertUseless = "Convert to regular Magazine",
+    Recipe_SBIFConvertFranchise = "Upgrade Franchise Magazine",
+    Recipe_SBIFConvertIndustrial = "Upgrade Industrial Magazine",
+    Recipe_SBIFConvertTiles = "Upgrade Tiles Magazine",
 }

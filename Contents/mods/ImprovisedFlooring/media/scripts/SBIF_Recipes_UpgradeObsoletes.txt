@@ -1,0 +1,35 @@
+module ImprovisedFlooring
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe SBIFConvertUseless {   
+        ImprovisedFlooring.IFMagazineCarpet1/ImprovisedFlooring.IFMagazineWood1,
+	    Result:Base.Magazine,
+	    Time:1.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe SBIFConvertFranchise {
+        ImprovisedFlooring.IFMagazineSpecial2/ImprovisedFlooring.IFMagazineSpecial3/ImprovisedFlooring.IFMagazineSpecial4/ImprovisedFlooring.IFMagazineSpecial5/ImprovisedFlooring.IFMagazineSpecial6/ImprovisedFlooring.IFMagazineSpecial7,
+        Result:ImprovisedFlooring.IFMagazineFranchise,
+        Time:1.0,
+        NeedToBeLearn:False,
+    }
+
+    recipe SBIFConvertIndustrial {
+        ImprovisedFlooring.IFMagazineSpecial1,
+        Result:ImprovisedFlooring.IFMagazineIndustrial,
+        Time: 1.0,
+        NeedToBeLearn:False,
+    }
+
+    recipe SBIFConvertTiles {
+        ImprovisedFlooring.IFMagazineTiles1/ImprovisedFlooring.IFMagazineTiles2/ImprovisedFlooring.IFMagazineTiles3,
+        Result:ImprovisedFlooring.IFMagazineTiles,
+        TIme: 1.0,
+        NeedToBeLearn:False,
+    }
+}
