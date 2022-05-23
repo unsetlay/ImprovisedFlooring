@@ -6,12 +6,13 @@ module ImprovisedFlooring
     }
 
     recipe MakeConcreteBucket {
-        keep HandShovel,
+        destroy BucketEmpty/BucketWaterFull,
+        Water=5,
         ConcretePowder,
-        BucketWaterFull,
         Result:BucketConcreteFull,
-        Time: 30.0,
+        Time: 150.0,
         NeedToBeLearn: False,
+        Sound:MakePlaster,
     }
 
 }
