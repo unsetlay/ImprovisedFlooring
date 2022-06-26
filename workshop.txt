@@ -87,5 +87,5 @@ description=Improvised flooring is open-source and published on [url=https://git
 description=
 description=[h1]Like what I'm doing?[/h1]
 description=[img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/like_favorite.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/kofi.png[/img][/url]
-tags=Build 41;Building;Misc
+tags=Build 41;Building;Misc;Textures
 visibility=public
