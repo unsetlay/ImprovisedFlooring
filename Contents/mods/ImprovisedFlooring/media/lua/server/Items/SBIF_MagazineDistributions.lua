@@ -268,10 +268,10 @@ table.insert(SuburbsDistributions["all"]["sidetable"].items, 0.01);
 
 -- IFMagazineEasterEgg (Nostalgic Carpet)
 table.insert(ProceduralDistributions.list["DaycareCounter"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
-table.insert(ProceduralDistributions.list["DaycareCounter"].items, 0.01);
+table.insert(ProceduralDistributions.list["DaycareCounter"].items, 0.001);
 table.insert(ProceduralDistributions.list["DaycareShelves"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
-table.insert(ProceduralDistributions.list["DaycareShelves"].items, 0.01);
+table.insert(ProceduralDistributions.list["DaycareShelves"].items, 0.001);
 table.insert(ProceduralDistributions.list["GigamartToys"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
-table.insert(ProceduralDistributions.list["GigamartToys"].items, 0.01);
+table.insert(ProceduralDistributions.list["GigamartToys"].items, 0.0001);
 table.insert(SuburbsDistributions["all"]["postbox"].items, "ImprovisedFlooring.IFMagazineEasterEgg");
 table.insert(SuburbsDistributions["all"]["postbox"].items, 0.001);
