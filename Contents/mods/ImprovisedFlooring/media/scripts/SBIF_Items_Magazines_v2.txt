@@ -12,7 +12,7 @@ module ImprovisedFlooring
         DisplayName = A Trip Down Memory Lane,
         Icon = IFMagazine_Nostalgia,
         TeachedRecipes = EasterEggNostalgia,
-        ReplaceOnUse = IFMagazineNostalgia,
+        ReplaceOnUse = IFMagazineEasterEgg,
         DisplayCategory = SkillBook,
         StaticModel = Magazine,
         WorldStaticModel = ImprovisedFlooring.Magazine_Nostalgia,
