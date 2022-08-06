@@ -7,7 +7,7 @@ module ImprovisedFlooring
 
     recipe CanvasBeige {   
         keep Needle,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         Thread,
         RippedSheets=6,
         PaintLightBrown,
@@ -22,7 +22,7 @@ module ImprovisedFlooring
 
     recipe CanvasBlue {   
         keep Needle,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         Thread,
         RippedSheets=6,
         PaintBlue,
@@ -37,7 +37,7 @@ module ImprovisedFlooring
 
     recipe CanvasGreen {   
         keep Needle,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         Thread,
         RippedSheets=6,
         PaintGreen,
@@ -52,7 +52,7 @@ module ImprovisedFlooring
     
     recipe CanvasGrey {   
         keep Needle,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         Thread,
         RippedSheets=6,
         PaintGrey,
@@ -67,7 +67,7 @@ module ImprovisedFlooring
 
     recipe CarpetBeige {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintLightBrown/HairDyeLightBrown,
 	    Result:Moveables.floors_interior_carpet_01_12,
@@ -81,7 +81,7 @@ module ImprovisedFlooring
     
     recipe CarpetBlack {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGrey/HairDyeBlack,
 	    Result:Moveables.floors_interior_carpet_01_13,
@@ -95,7 +95,7 @@ module ImprovisedFlooring
 
     recipe CarpetBordeaux {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintBrown/HairDyeLightBrown,
 	    Result:Moveables.floors_interior_carpet_01_8,
@@ -109,7 +109,7 @@ module ImprovisedFlooring
 
     recipe CarpetBrown {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintBrown/HairDyeLightBrown,
 	    Result:Moveables.floors_interior_carpet_01_3,
@@ -123,7 +123,7 @@ module ImprovisedFlooring
 
     recipe CarpetDarkGrey {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGrey/HairDyeBlack,
 	    Result:Moveables.floors_interior_carpet_01_2,
@@ -137,7 +137,7 @@ module ImprovisedFlooring
 
     recipe CarpetDarkRed {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintRed/HairDyeRed,
 	    Result:Moveables.floors_interior_carpet_01_4,
@@ -151,7 +151,7 @@ module ImprovisedFlooring
 
     recipe CarpetGreen {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGreen/HairDyeGreen,
 	    Result:Moveables.floors_interior_carpet_01_5,
@@ -165,7 +165,7 @@ module ImprovisedFlooring
 
     recipe CarpetGrey {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGrey/HairDyeBlack,
 	    Result:Moveables.floors_interior_carpet_01_14,
@@ -179,7 +179,7 @@ module ImprovisedFlooring
 
     recipe CarpetGreyCurly {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGrey/HairDyeBlack,
 	    Result:Moveables.floors_interior_carpet_01_7,
@@ -193,7 +193,7 @@ module ImprovisedFlooring
 
     recipe CarpetLightGreen {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGreen/HairDyeGreen,
 	    Result:Moveables.floors_interior_carpet_01_15,
@@ -207,7 +207,7 @@ module ImprovisedFlooring
 
     recipe CarpetPurple {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintPurple,
 	    Result:Moveables.floors_interior_carpet_01_1,
@@ -221,7 +221,7 @@ module ImprovisedFlooring
 
     recipe CarpetRed {
        keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintRed,
 	    Result:Moveables.floors_interior_carpet_01_9,
@@ -235,7 +235,7 @@ module ImprovisedFlooring
 
     recipe CarpetViolet {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintPurple/HairDyePink,
 	    Result:Moveables.floors_interior_carpet_01_6,
@@ -249,7 +249,7 @@ module ImprovisedFlooring
 
     recipe CarpetWhite {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintWhite/HairDyeWhite,
 	    Result:Moveables.floors_interior_carpet_01_11,
@@ -263,7 +263,7 @@ module ImprovisedFlooring
 
     recipe CarpetYellow {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintYellow/HairDyeYellow,
 	    Result:Moveables.floors_interior_carpet_01_10,

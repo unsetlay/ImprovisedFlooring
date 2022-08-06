@@ -7,7 +7,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialFossoilBlueFloor {
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -20,7 +20,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialFossoilWhiteFloor {
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -34,7 +34,7 @@ module ImprovisedFlooring
 
     recipe SpecialGreenesCarpet {
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=10,
         PaintGrey,
 	    Result:Moveables.location_shop_greenes_01_32,
@@ -48,7 +48,7 @@ module ImprovisedFlooring
 
     recipe SpecialGreenesCarpet2 {
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=10,
         PaintGrey,
 	    Result:Moveables.location_shop_greenes_01_33,
@@ -61,7 +61,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialGreenesFloor {
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         Nails=4,
@@ -73,7 +73,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialPileOCrepeFloor {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         Nails=4,
@@ -85,7 +85,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialPizzaWhirledFloor {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -98,7 +98,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialSpiffoFloor {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -111,7 +111,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialZippeeFloor1 {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -124,7 +124,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialZippeeFloor2 {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,

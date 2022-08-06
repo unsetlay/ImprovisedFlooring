@@ -7,7 +7,7 @@ module ImprovisedFlooring
 
     recipe MetalGrate {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         MetalPipe=3,
 	    Result:Moveables.improvisedflooring_missing_0_26,
@@ -22,7 +22,7 @@ module ImprovisedFlooring
 
     recipe MetalGrateWest {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         MetalPipe=2,
         MetalBar,
@@ -38,7 +38,7 @@ module ImprovisedFlooring
 
     recipe MetalGrateNorth {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         MetalPipe=2,
         MetalBar,
@@ -54,7 +54,7 @@ module ImprovisedFlooring
 
     recipe MetalPlateDarkWest {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         SmallSheetMetal,
 	    Result:Moveables.improvisedflooring_missing_0_13,
@@ -69,7 +69,7 @@ module ImprovisedFlooring
 
     recipe MetalPlateDarkNorth {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         SmallSheetMetal,
 	    Result:Moveables.improvisedflooring_missing_0_14,
@@ -84,7 +84,7 @@ module ImprovisedFlooring
 
     recipe MetalPlateRedWest {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         SmallSheetMetal,
         PaintRed=1,
@@ -100,7 +100,7 @@ module ImprovisedFlooring
 
     recipe MetalPlateRedNorth {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         SmallSheetMetal,
         PaintRed=1,
@@ -116,7 +116,7 @@ module ImprovisedFlooring
 
     recipe MetalSewerCoverWest {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         MetalPipe,
         MetalBar,
@@ -132,7 +132,7 @@ module ImprovisedFlooring
 
     recipe MetalSewerCoverNorth {
         keep BlowTorch=2,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         WeldingRods=1,
         MetalPipe,
         MetalBar,

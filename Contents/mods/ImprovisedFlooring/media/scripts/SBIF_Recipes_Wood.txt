@@ -6,8 +6,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodAcaciaFloor {   
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_51,
@@ -21,8 +21,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodBirchwoodFloor {   
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_42,
@@ -36,8 +36,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodBirchwoodFloorTiles {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_49,
@@ -51,8 +51,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodChestnutNorthFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_47,
@@ -66,8 +66,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodChestnutWestFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_46,
@@ -81,8 +81,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodCinnamonFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_50,
@@ -96,8 +96,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodCinnamonNorthFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_44,
@@ -111,8 +111,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodCinnamonWestFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_43,
@@ -126,8 +126,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodFinewoodFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_45,
@@ -141,8 +141,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodHardwoodFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_40,
@@ -156,8 +156,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodHardwoodFloorTiles {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_48,
@@ -171,8 +171,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodOakwoodFloor {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_41,
@@ -186,8 +186,8 @@ module ImprovisedFlooring
     }
 
     recipe WoodPinewoodFloorTiles {
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank,
         Nails=4,
 	    Result:Moveables.floors_interior_tilesandwood_01_52,

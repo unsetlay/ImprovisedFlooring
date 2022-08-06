@@ -8,7 +8,7 @@ module ImprovisedFlooring
     /* Via Magazine */
     recipe EasterEggNostalgia {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         ToyCar,
 	    Result:Moveables.improvisedflooring_missing_0_31,
@@ -23,7 +23,7 @@ module ImprovisedFlooring
     /* Via Unemployed Illiterates */
     recipe EasterEggNostalgiaIlliterate {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         ToyCar,
 	    Result:Moveables.improvisedflooring_missing_0_31,

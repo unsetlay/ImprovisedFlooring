@@ -7,7 +7,7 @@ module ImprovisedFlooring
 
     recipe GardenFakeGrass {   
         keep KnittingNeedles,
-        keep Scissors,
+        keep [Recipe.GetItemTypes.Scissors],
         RippedSheets=5,
         PaintGreen,
 	    Result:Moveables.improvisedflooring_missing_0_15,
@@ -20,7 +20,7 @@ module ImprovisedFlooring
     }
 
     recipe GardenPaverColorful {   
-        keep HandShovel,
+        keep HandShovel/Shovel/Shovel,
         Stone=1,
         BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_1,
@@ -33,7 +33,7 @@ module ImprovisedFlooring
     }
 
     recipe GardenPaverGrey {   
-        keep HandShovel,
+        keep HandShovel/Shovel,
         Stone=1,
         BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_5,
@@ -46,7 +46,7 @@ module ImprovisedFlooring
     }
 
     recipe GardenPaverRed {   
-        keep HandShovel,
+        keep HandShovel/Shovel,
         Stone=1,
         BucketConcreteFull=1,
 	    Result:Moveables.improvisedflooring_missing_0_6,

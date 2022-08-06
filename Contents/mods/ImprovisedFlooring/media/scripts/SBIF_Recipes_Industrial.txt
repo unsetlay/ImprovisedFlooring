@@ -6,7 +6,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialBarFloor {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -19,8 +19,8 @@ module ImprovisedFlooring
     }
 
     recipe SpecialBowlingFloor {   
-        keep Saw/GardenSaw,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
         Plank=2,
         Nails=8,
 	    Result:Moveables.improvisedflooring_missing_0_8,
@@ -32,7 +32,7 @@ module ImprovisedFlooring
 
 
     recipe SpecialDinerFloor {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -45,7 +45,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialDinerFloorGreen {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -58,7 +58,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialMallTileGrey {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -71,7 +71,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialMallTileN {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -84,7 +84,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialMallTileW {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -97,7 +97,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialMallTileWhite {   
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -110,7 +110,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialMotelTile {
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
@@ -123,7 +123,7 @@ module ImprovisedFlooring
     }
 
     recipe SpecialPieStoreFloor {
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Paintbrush,
         Plank=2,
         BucketPlasterFull=1,
