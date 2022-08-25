@@ -1,0 +1,23 @@
+ItemName_CH = {
+    /* Version 2.0 Magazines */
+    ItemName_ImprovisedFlooring.IFMagazineTiles = "戴夫倉庫家: 地磚型錄",
+    ItemName_ImprovisedFlooring.IFMagazineFranchise = "特殊地板總代理",
+    ItemName_ImprovisedFlooring.IFMagazineGarden = "家庭與庭院設計",
+    ItemName_ImprovisedFlooring.IFMagazineIndustrial = "工業風地板",
+    ItemName_ImprovisedFlooring.IFMagazineUrban = "城市廊道與路面",
+    ItemName_ImprovisedFlooring.IFMagazineEasterEgg = "回憶廊道之旅",
+
+    /* (Obsolete) Magazines : To Be Removed at a later date */
+    ItemName_ImprovisedFlooring.IFMagazineTiles1 = "(Obsolete) 戴夫倉庫家: 地磚型錄 (Vol 1)",
+    ItemName_ImprovisedFlooring.IFMagazineTiles2 = "(Obsolete) 戴夫倉庫家: 地磚型錄 (Vol 2)",
+    ItemName_ImprovisedFlooring.IFMagazineTiles3 = "(Obsolete) 戴夫倉庫家: 地磚型錄 (Vol 3)",
+    ItemName_ImprovisedFlooring.IFMagazineWood1 = "(Obsolete): 克羅維斯: 1993 木質地板",
+    ItemName_ImprovisedFlooring.IFMagazineCarpet1 = "(Obsolete): 刷刷塗塗: 家用地毯",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial1 = "(Obsolete) 工業用地板與設計",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "(Obsolete) 特殊浣熊地板",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "(Obsolete) 披薩漩渦特規系列",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial4 = "(Obsolete) 加油大亨特規系列",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial5 = "(Obsolete) 薄餅餐廳特規系列",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial6 = "(Obsolete) 古寧特規系列",
+    ItemName_ImprovisedFlooring.IFMagazineSpecial7 = "(Obsolete) 滋皮特規系列",
+}
