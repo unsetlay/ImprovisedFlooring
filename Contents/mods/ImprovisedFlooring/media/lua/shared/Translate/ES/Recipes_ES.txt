@@ -111,5 +111,17 @@ Recipe_ES = {
 
     /* Easter Egg */
     Recipe_EasterEggNostalgia = "Moqueta: Nostalgia",
-    Recipe_EasterEggNostalgiaIlliterate = "AAAH! lA aLfoMbRA HacE VrOOm vRoOM!",
+    Recipe_EasterEggNostalgiaIlliterate = "AAAH! lA aLfoMbRA HacE VrOOm vRoOM!",1
+
+    /* Disassemble */
+    Recipe_IFDisassembleBrandedCarpets = "Desmontar",
+    Recipe_IFDisassembleBrandedTiles = "Desmontar",
+    Recipe_IFDisassembleCarpet = "Desmontar",
+    Recipe_IFDisassembleGarden = "Desmontar",
+    Recipe_IFDisassembleIndustrial = "Desmontar",
+    Recipe_IFDisassembleMetalworkingPipes = "Desmontar",
+    Recipe_IFDisassembleMetalworkingSheet = "Desmontar",
+    Recipe_IFDisassembleTiles = "Desmontar",
+    Recipe_IFDisassembleUrban = "Desmontar",
+    Recipe_IFDisassembleWood = "Desmontar",
 }

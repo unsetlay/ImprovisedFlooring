@@ -112,4 +112,16 @@ Recipe_EN = {
     /* Easter Egg */
     Recipe_EasterEggNostalgia = "Carpet: Nostalgia",
     Recipe_EasterEggNostalgiaIlliterate = "AAAH! CaRPeT gO VrOOm vRoOM!",
+
+    /* Disassemble Flooring */
+    Recipe_IFDisassembleBrandedCarpets = "Disassemble",
+    Recipe_IFDisassembleBrandedTiles = "Disassemble",
+    Recipe_IFDisassembleCarpet = "Disassemble",
+    Recipe_IFDisassembleGarden = "Disassemble",
+    Recipe_IFDisassembleIndustrial = "Disassemble",
+    Recipe_IFDisassembleMetalworkingPipes = "Disassemble",
+    Recipe_IFDisassembleMetalworkingSheet = "Disassemble",
+    Recipe_IFDisassembleTiles = "Disassemble",
+    Recipe_IFDisassembleUrban = "Disassemble",
+    Recipe_IFDisassembleWood = "Disassemble",
 }
