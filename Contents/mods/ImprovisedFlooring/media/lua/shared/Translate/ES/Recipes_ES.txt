@@ -112,10 +112,4 @@ Recipe_ES = {
     /* Easter Egg */
     Recipe_EasterEggNostalgia = "Moqueta: Nostalgia",
     Recipe_EasterEggNostalgiaIlliterate = "AAAH! lA aLfoMbRA HacE VrOOm vRoOM!",
-
-    /* Magazine upgrades for v1.0 to v1.1 (Temporary) */
-    Recipe_SBIFConvertUseless = "Convertir a Revista Regular",
-    Recipe_SBIFConvertFranchise = "Actualizar a Revista de Franquicias",
-    Recipe_SBIFConvertIndustrial = "Actualizar a Revista Industrial",
-    Recipe_SBIFConvertTiles = "Actualizar a Revista de Suelos",
 }
