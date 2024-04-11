@@ -111,11 +111,17 @@ Recipe_ES = {
 
     /* Easter Egg */
     Recipe_EasterEggNostalgia = "Moqueta: Nostalgia",
-    Recipe_EasterEggNostalgiaIlliterate = "AAAH! lA aLfoMbRA HacE VrOOm vRoOM!",
+    Recipe_EasterEggNostalgiaIlliterate = "AAAH! lA aLfoMbRA HacE VrOOm vRoOM!",1
 
-    /* Magazine upgrades for v1.0 to v1.1 (Temporary) */
-    Recipe_SBIFConvertUseless = "Convertir a Revista Regular",
-    Recipe_SBIFConvertFranchise = "Actualizar a Revista de Franquicias",
-    Recipe_SBIFConvertIndustrial = "Actualizar a Revista Industrial",
-    Recipe_SBIFConvertTiles = "Actualizar a Revista de Suelos",
+    /* Disassemble */
+    Recipe_IFDisassembleBrandedCarpets = "Desmontar",
+    Recipe_IFDisassembleBrandedTiles = "Desmontar",
+    Recipe_IFDisassembleCarpet = "Desmontar",
+    Recipe_IFDisassembleGarden = "Desmontar",
+    Recipe_IFDisassembleIndustrial = "Desmontar",
+    Recipe_IFDisassembleMetalworkingPipes = "Desmontar",
+    Recipe_IFDisassembleMetalworkingSheet = "Desmontar",
+    Recipe_IFDisassembleTiles = "Desmontar",
+    Recipe_IFDisassembleUrban = "Desmontar",
+    Recipe_IFDisassembleWood = "Desmontar",
 }

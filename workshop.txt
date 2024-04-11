@@ -82,10 +82,12 @@ description=There are a few floor tiles that have different names but the same t
 description=
 description=An example of this would be "White Mall Tiles" and "White Tiles". They are visually identical but come from two different textures in the game files.
 description=
-description=[h1]Source Code[/h1]
+description=[quote]
 description=Improvised flooring is open-source and published on [url=https://github.com/Orcicorn-ProjectZomboid/ImprovisedFlooring]Github[/url]
+description=Repackage, redistribute, recode, whatever, I don't care, do as you please.
+description=Credit would be appreciated.
 description=
-description=[h1]Like what I'm doing?[/h1]
 description=[img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/like_favorite.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/kofi.png[/img][/url]
+description=[/quote]
 tags=Build 41;Building;Misc;Textures
 visibility=public

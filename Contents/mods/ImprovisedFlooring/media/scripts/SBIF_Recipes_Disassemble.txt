@@ -1,0 +1,130 @@
+module ImprovisedFlooring {
+    imports {
+        Base
+    }
+
+    /* SBIF_Recipes_Branded.txt [Carpets] */
+    recipe IFDisassembleBrandedCarpets {
+        keep [Recipe.GetItemTypes.Scissors],
+        Moveables.location_shop_greenes_01_32/Moveables.location_shop_greenes_01_33,
+        Result: Base.Thread=1,
+        Time: 60.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+        OnCreate: Recipe.OnCreate.SBIFDisassembleBrandedCarpets,
+    }
+
+    /* SBIF_Recipes_Branded.txt [Tiles] */
+    recipe IFDisassembleBrandedTiles {
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
+        Moveables.location_shop_fossoil_01_39/Moveables.location_shop_fossoil_01_38/Moveables.location_shop_greenes_01_34/Moveables.location_restaurant_pileocrepe_01_14/Moveables.location_restaurant_pizzawhirled_01_16/Moveables.location_restaurant_spiffos_01_38/Moveables.location_shop_zippee_01_6/Moveables.location_shop_zippee_01_7,
+        Result: Base.UnusableWood,
+        Time: 60.0,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+        OnCreate:Recipe.OnCreate.SBIFDisassembleBrandedFloors,
+    }
+
+    /* SBIF_Recipes_Carpet.txt + SBIF_Recipes_Garden.txt [Grass] */
+    recipe IFDisassembleCarpet {
+        keep [Recipe.GetItemTypes.Scissors],
+        Moveables.improvisedflooring_missing_0_11/Moveables.improvisedflooring_missing_0_12/Moveables.improvisedflooring_missing_0_9/Moveables.improvisedflooring_missing_0_10/Moveables.floors_interior_carpet_01_12/Moveables.floors_interior_carpet_01_13/Moveables.floors_interior_carpet_01_8/Moveables.floors_interior_carpet_01_3/Moveables.floors_interior_carpet_01_2/Moveables.floors_interior_carpet_01_4/Moveables.floors_interior_carpet_01_5/Moveables.floors_interior_carpet_01_14/Moveables.floors_interior_carpet_01_7/Moveables.floors_interior_carpet_01_15/Moveables.floors_interior_carpet_01_1/Moveables.floors_interior_carpet_01_9/Moveables.floors_interior_carpet_01_6/Moveables.floors_interior_carpet_01_11/Moveables.floors_interior_carpet_01_10/Moveables.improvisedflooring_missing_0_15,
+        Result: Base.Thread=1,
+        Time: 60.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+        OnCreate: Recipe.OnCreate.SBIFDisassembleCarpets,
+    }
+
+    /*  SBIF_Recipes_EasterEgg.txt (Can not be disassembled) */
+
+    /*  SBIF_Recipes_Garden.txt (Not Dynamic) */
+    recipe IFDisassembleGarden {
+        keep [Recipe.GetItemTypes.Hammer],
+        Moveables.improvisedflooring_missing_0_1/Moveables.improvisedflooring_missing_0_5/Moveables.improvisedflooring_missing_0_6,
+        Result: Base.Stone,
+        Time: 60.0,
+        Sound: Hammering,
+        Prop1: Hammer,
+        AnimNode: BuildLow,
+    }
+
+    /* SBIF_Recipes_Industrial.txt */
+    recipe IFDisassembleIndustrial {
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
+        Moveables.location_restaurant_bar_01_24/Moveables.improvisedflooring_missing_0_8/Moveables.location_restaurant_diner_01_40/Moveables.location_restaurant_diner_01_41/Moveables.location_shop_mall_01_22/Moveables.location_shop_mall_01_20/Moveables.location_shop_mall_01_21/Moveables.location_shop_mall_01_23/Moveables.location_hospitality_sunstarmotel_02_16/Moveables.location_restaurant_pie_01_7,
+        Result: Base.UnusableWood,
+        Time: 60.0,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+        OnCreate:Recipe.OnCreate.SBIFDisassembleIndustrial,
+    }
+    
+    /* SBIF_Recipes_Metalworking.txt [Pipes] */
+    recipe IFDisassembleMetalworkingPipes {
+        keep BlowTorch=1,
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Moveables.improvisedflooring_missing_0_26/Moveables.improvisedflooring_missing_0_24/Moveables.improvisedflooring_missing_0_25/Moveables.improvisedflooring_missing_0_27/Moveables.improvisedflooring_missing_0_28,
+        Result: Base.ScrapMetal,
+        Time: 60.0,
+        Sound: BlowTorch,
+        AnimNode: BlowTorch,
+        Prop1: BlowTorch,
+        OnCreate: Recipe.OnCreate.SBIFDisassembleMetworkingPipes,
+    }
+
+    /* SBIF_Recipes_Metalworking.txt [Sheet Metal] */
+    recipe IFDisassembleMetalworkingSheet {
+        keep BlowTorch=1,
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Moveables.improvisedflooring_missing_0_13/Moveables.improvisedflooring_missing_0_14/Moveables.improvisedflooring_missing_0_29/Moveables.improvisedflooring_missing_0_30,
+        Result: Base.ScrapMetal,
+        Time: 60.0,
+        Sound: BlowTorch,
+        AnimNode: BlowTorch,
+        Prop1: BlowTorch,
+        OnCreate: Recipe.OnCreate.SBIFDisassembleMetworkingSmallSheetMetal,
+    }
+    
+    /* SBIF_Recipes_Tiles.txt */
+    recipe IFDisassembleTiles {
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
+        Moveables.floors_interior_tilesandwood_01_10/Moveables.floors_interior_tilesandwood_01_23/Moveables.floors_interior_tilesandwood_01_19/Moveables.floors_interior_tilesandwood_01_7/Moveables.floors_interior_tilesandwood_01_1/Moveables.floors_interior_tilesandwood_01_2/Moveables.floors_interior_tilesandwood_01_13/Moveables.floors_interior_tilesandwood_01_31/Moveables.floors_interior_tilesandwood_01_20/Moveables.floors_interior_tilesandwood_01_24/Moveables.floors_interior_tilesandwood_01_29/Moveables.floors_interior_tilesandwood_01_8/Moveables.floors_interior_tilesandwood_01_21/Moveables.floors_interior_tilesandwood_01_30/Moveables.floors_interior_tilesandwood_01_4/Moveables.floors_interior_tilesandwood_01_14/Moveables.floors_interior_tilesandwood_01_0/Moveables.floors_interior_tilesandwood_01_18/Moveables.floors_interior_tilesandwood_01_28/Moveables.floors_interior_tilesandwood_01_22/Moveables.improvisedflooring_missing_0_2/Moveables.floors_interior_tilesandwood_01_5/Moveables.floors_interior_tilesandwood_01_12/Moveables.floors_interior_tilesandwood_01_17/Moveables.floors_interior_tilesandwood_01_11/Moveables.floors_interior_tilesandwood_01_3/Moveables.floors_interior_tilesandwood_01_9/Moveables.floors_interior_tilesandwood_01_6,
+        Result: Base.UnusableWood,
+        Time: 60.0,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+        OnCreate:Recipe.OnCreate.SBIFDiassembleTiles,
+    }
+    
+    /* SBIF_Recipes_Urban.txt */
+    recipe IFDisassembleUrban {
+        keep [Recipe.GetItemTypes.Hammer],
+        Moveables.improvisedflooring_missing_0_16/Moveables.improvisedflooring_missing_0_17/Moveables.improvisedflooring_missing_0_18/Moveables.improvisedflooring_missing_0_19/Moveables.improvisedflooring_missing_0_20/Moveables.improvisedflooring_missing_0_21/Moveables.improvisedflooring_missing_0_22/Moveables.improvisedflooring_missing_0_23/Moveables.improvisedflooring_missing_0_7/Moveables.improvisedflooring_missing_0_3/Moveables.improvisedflooring_missing_0_4/Moveables.improvisedflooring_missing_0_0,
+        Result: Base.UnusableWood,
+        Time: 60.0,
+        Prop1:HandShovel,
+        AnimNode:Forage,
+        Sound:MakePlaster,
+        OnCreate:Recipe.OnCreate.SBIFDisassembleUrban,
+    }
+
+    /* SBIF_Recipes_Wood.txt */
+    recipe IFDisassembleWood {
+        keep [Recipe.GetItemTypes.Saw],
+        keep [Recipe.GetItemTypes.Hammer],
+        Moveables.floors_interior_tilesandwood_01_51/Moveables.floors_interior_tilesandwood_01_42/Moveables.floors_interior_tilesandwood_01_49/Moveables.floors_interior_tilesandwood_01_47/Moveables.floors_interior_tilesandwood_01_46/Moveables.floors_interior_tilesandwood_01_50/Moveables.floors_interior_tilesandwood_01_44/Moveables.floors_interior_tilesandwood_01_43/Moveables.floors_interior_tilesandwood_01_45/Moveables.floors_interior_tilesandwood_01_40/Moveables.floors_interior_tilesandwood_01_48/Moveables.floors_interior_tilesandwood_01_41/Moveables.floors_interior_tilesandwood_01_52,
+        Result: Base.UnusableWood,
+        Time: 60.0,
+        AnimNode: BuildLow,
+        Prop1: Hammer,
+        Sound: Hammering,
+        OnCreate:Recipe.OnCreate.SBIFDisassembleWood,
+    }
+}

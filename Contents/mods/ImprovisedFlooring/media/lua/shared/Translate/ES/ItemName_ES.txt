@@ -6,18 +6,4 @@ ItemName_ES = {
     ItemName_ImprovisedFlooring.IFMagazineIndustrial = "Suelos Industriales",
     ItemName_ImprovisedFlooring.IFMagazineUrban = "Calzadas y Aceras Urbanas",
     ItemName_ImprovisedFlooring.IFMagazineEasterEgg = "Un viaje por el carril de la memoria",
-
-    /* (Obsolete) Magazines : To Be Removed at a later date */
-    ItemName_ImprovisedFlooring.IFMagazineTiles1 = "(Obsolete) Almacén de Dave: Catálogo de Azulejos (Vol 1)",
-    ItemName_ImprovisedFlooring.IFMagazineTiles2 = "(Obsolete) Almacén de Dave: Catálogo de Azulejos (Vol 2)",
-    ItemName_ImprovisedFlooring.IFMagazineTiles3 = "(Obsolete) Almacén de Dave: Catálogo de Azulejos (Vol 3)",
-    ItemName_ImprovisedFlooring.IFMagazineWood1 = "(Obsolete): Clowes: Suelos de Madera de 1993",
-    ItemName_ImprovisedFlooring.IFMagazineCarpet1 = "(Obsolete): Smears: Moquetas del Hogar",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial1 = "(Obsolete) Suelos Industriales y Diseños.",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial2 = "(Obsolete) Franquicia de especificaciones Spiffo",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial3 = "(Obsolete) Franquicia de especificaciones Pizza Whirled",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial4 = "(Obsolete) Franquicia de especificaciones Fossoil",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial5 = "(Obsolete) Franquicia de especificaciones Pile o'Crepe",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial6 = "(Obsolete) Franquicia de especificaciones Greene's",
-    ItemName_ImprovisedFlooring.IFMagazineSpecial7 = "(Obsolete) Franquicia de especificaciones Zippee",
 }
